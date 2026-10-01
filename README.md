@@ -27,8 +27,11 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
    > Leia https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/AGENTS.md e vamos configurar.
 3. Responda às 6 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
    3 minutos.
-4. Cole o **bloco de configuração** que o assistente entregar nas configurações dele.
-   A partir daí, toda tarefa jurídica segue o método, em qualquer conversa.
+4. Cole o **bloco de configuração** que o assistente entregar nas configurações dele. Os
+   menus de cada assistente estão em `configuracao/bloco-de-configuracao.md`.
+   - O bloco traz a sua pasta, as regras que nada muda e um resumo do método.
+   - Não traz nome nem número da OAB.
+   - A partir daí, toda tarefa jurídica segue o método, em qualquer conversa.
 
 ## O que pedir
 

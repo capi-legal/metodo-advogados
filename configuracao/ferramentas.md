@@ -1,66 +1,74 @@
-# Como usar esta pasta em cada assistente
+# Como configurar cada assistente
 
-A pasta funciona com qualquer assistente de IA que trabalhe com arquivos. Há dois jeitos:
+> Informações conferidas em 2026-10-01. Os aplicativos mudam com frequência: o que
+> estiver marcado `[testar]` ainda não foi verificado na prática.
 
-- **A. O assistente trabalha na pasta do computador.** É a experiência completa: lê,
-  cria e atualiza os arquivos sozinho.
-- **B. O assistente está na web.** Projeto com instruções e arquivos anexados, ou conector
-  de Drive. Funciona, mas com mais passos manuais.
+## 1. Comece (em qualquer assistente)
 
-**Primeira mensagem em qualquer assistente:** "Leia o AGENTS.md e vamos configurar."
+Abra uma conversa nova e escreva:
 
-Se o assistente não mencionar o seu perfil na primeira resposta, ele não leu as
-instruções. Repita a frase.
+> Leia https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/AGENTS.md e vamos configurar.
 
----
+Um endereço escrito na conversa é aberto por todos os assistentes. O assistente faz 6
+perguntas, monta ou adota a sua pasta de trabalho e entrega o **bloco de configuração**.
 
-## A. Na pasta do computador
+## 2. Cole o bloco nas configurações
 
-| Assistente | Como abrir | Lê as instruções sozinho? |
+Onde colar em cada assistente, limites e cuidados: `configuracao/bloco-de-configuracao.md`.
+Faça isso em cada assistente que você usa. O bloco é o mesmo para todos, e todos passam a
+trabalhar na mesma pasta.
+
+## 3. Como o assistente chega à sua pasta
+
+### A. No computador (experiência completa, recomendada)
+
+O assistente lê e grava direto na pasta. Para pastas na nuvem, use o app de
+sincronização (Google Drive para computador, OneDrive, Dropbox) e deixe a pasta
+**baixada no computador**:
+- Drive: modo "espelhar", ou "disponível off-line";
+- OneDrive: "Sempre manter neste dispositivo".
+
+| Assistente | Como abrir a pasta | Encontra o método sozinho? |
 |---|---|---|
-| **Claude, app para computador (Cowork)** | Escolha esta pasta como pasta de trabalho | Normalmente sim (`CLAUDE.md` → `AGENTS.md`) `[testar]` |
-| **Claude Code** (terminal) | `cd` até a pasta e rode `claude` | Sim (`CLAUDE.md` → `AGENTS.md`) |
-| **ChatGPT, app para computador (Work)** | Crie um projeto local com esta pasta como principal | `[testar]`. Se não ler, cole `instrucoes-curtas.md` nas instruções do projeto |
-| **Codex** (OpenAI) | Abra na pasta | Sim (`AGENTS.md`) |
-| **Gemini CLI** (Google) | `cd` até a pasta e rode `gemini` | Sim (`GEMINI.md` → `AGENTS.md`) |
-| **Outros** (Cursor e similares) | Abra a pasta | Quase todos leem `AGENTS.md`. Se não, peça na primeira mensagem |
+| **Claude** (app para computador, Cowork) | Escolha a pasta de trabalho, não a raiz do Drive | Pelo `CLAUDE.md` da pasta `[testar]` |
+| **ChatGPT** (app para computador, Work) | Projeto local com a pasta como principal | `[testar]`. O bloco nas instruções garante o essencial |
+| **Codex** (OpenAI) | Abra na pasta | Sim, pelo `AGENTS.md` da pasta (testado) |
+| **Claude Code / Gemini CLI** | No terminal, na pasta: `claude` ou `gemini` | Sim (`CLAUDE.md` / `GEMINI.md`) |
 
-## B. Na web (ChatGPT, Claude, Gemini, Grok…)
+A configuração cria esses ponteiros (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) na raiz da
+sua pasta.
 
-1. Crie um **projeto** ou espaço com instruções personalizadas. O nome muda conforme o
-   assistente: Projeto, Gem, Workspace.
-   - Para sigilo, use **um projeto por cliente**, ou pelo menos um projeto só para
-     trabalho de clientes.
-2. Cole o conteúdo de `configuracao/instrucoes-curtas.md` no campo de instruções.
-3. Anexe ao projeto:
-   - `_escritorio/perfil.md`;
-   - `_escritorio/posicoes.md`;
-   - `guias/pontos-gerais.md`;
-   - as rotinas que mais usa (por exemplo `rotinas/revisar-contrato.md`).
-4. Para cada assunto, anexe a `ficha.md`, o `historico.md` e o contrato.
-5. **O assistente na web não grava na sua pasta.** Ele entrega o texto; você salva o
-   arquivo. Com conector de Drive, ele pode criar arquivos novos, mas talvez não edite os
-   existentes (`AGENTS.md` §10).
-6. Atualize os anexos do projeto quando o perfil ou as posições mudarem.
+**Contratos em `.docx` ou `.pdf`.** Google Docs nativo aparece no computador só como um
+atalho, e o assistente não consegue ler o conteúdo.
 
-## Pasta no Google Drive ou no OneDrive
+### B. Na web ou no celular (por conector)
 
-Funciona bem se você usar o app de sincronização e:
+O assistente acessa a pasta pelo conector de armazenamento. O que cada um consegue fazer
+varia:
 
-- deixar os arquivos **baixados no computador**:
-  - Drive: modo "espelhar", ou "disponível off-line";
-  - OneDrive: "Sempre manter neste dispositivo";
-- usar **.docx/.pdf**, não Google Docs nativo;
-- abrir no assistente **a pasta do escritório**, não a raiz do Drive.
+| | Google Drive | Dropbox | OneDrive pessoal | OneDrive / SharePoint da empresa |
+|---|---|---|---|---|
+| **ChatGPT** | Lê, cria e edita onde autorizado (planos pagos, web) | Lê e grava | Só para anexar arquivos | Lê e grava, se o administrador liberar |
+| **Claude** | Lê e cria arquivos; editar não está documentado | Cria arquivos de texto | Não suportado | Lê e grava, com autorização do administrador |
+| **Gemini** | Lê; edita Documentos e Planilhas pelo Spark (planos Pro/Ultra) | Pelo Spark | Não suportado | Não suportado |
+| **Grok** | Lê e cria em qualquer pasta | `[testar]` | Não suportado | Envia arquivos |
 
-Detalhes em `conectores/LEIA-ME.md`.
+**OneDrive pessoal não pode receber gravações por conector em nenhum assistente.** Use o
+modo computador (A).
 
-## Sigilo e plano
+Quando o assistente não puder editar um arquivo, ele cria um arquivo novo, ou entrega o
+texto para você colar (`AGENTS.md` §10).
 
-- Os arquivos que o assistente lê são **enviados ao fornecedor da IA** para processamento.
-  Ficar na pasta não significa ficar só no computador.
-- Use um **plano pago com o uso dos dados para treinamento desativado** (ou plano
-  empresarial). Evite planos gratuitos para trabalho de clientes.
-- Envie só o necessário. Quando não fizer diferença, troque nomes por iniciais.
-- Se você usa o termo de uso de IA com clientes, respeite as recusas. O assistente avisa
-  se o cliente recusou.
+Para quem trabalha **só** na web ou no celular com Google Drive, os registros podem ser
+Google Docs. A regra está em `estrutura/LEIA-ME.md`.
+
+## 4. Sigilo e plano
+
+- Os arquivos que o assistente lê são **enviados ao fornecedor da IA** para
+  processamento. Estar na sua pasta não significa ficar só no computador.
+- Use **plano pago com o uso dos dados para treinamento desativado**, ou plano
+  empresarial. Evite planos gratuitos para trabalho de clientes.
+- **Memória do assistente:** ela vale para todas as conversas, e o bloco já proíbe guardar
+  nela fatos de clientes. Para mais segurança, desligue "consultar conversas anteriores"
+  (ChatGPT) ou "pesquisar e consultar conversas" (Claude).
+- Envie só o necessário e, quando não fizer diferença, troque nomes por iniciais.

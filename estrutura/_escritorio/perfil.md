@@ -14,8 +14,10 @@ Marcadores:
 
 ## Quem sou
 
-- **Nome:** [preencher]
-- **OAB:** [preencher, ex.: OAB/SP 123.456]
+- **Nome e OAB:** [opcional]. Só são usados em documentos que precisam deles
+  (procuração, contrato de honorários, termo de uso de IA). O assistente pergunta quando o
+  primeiro desses documentos for redigido e guarda aqui. Nunca vão para a memória do
+  assistente nem para o bloco de configuração.
 - **Escritório:** [preencher, ou "atuo sozinho(a)"]
 - **Equipe:** [preencher, ex.: "sozinho(a)", "eu e um estagiário"]
 

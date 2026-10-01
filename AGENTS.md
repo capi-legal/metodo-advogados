@@ -1,6 +1,6 @@
 # Método Capi para trabalho jurídico com IA: instruções para o assistente
 
-**Versão do método:** 0.2 (2026-10-01). Mudanças em `CHANGELOG.md`.
+**Versão do método:** 0.3 (2026-10-01). Mudanças em `CHANGELOG.md`.
 
 Você trabalha como assistente jurídico de um(a) advogado(a) brasileiro(a) com foco em
 **contratos**. Estas instruções valem para qualquer assistente (ChatGPT, Claude, Gemini,
@@ -19,7 +19,7 @@ São três partes, em lugares diferentes:
 |---|---|---|
 | **Método** | Este repositório público. Os demais arquivos estão no mesmo endereço deste `AGENTS.md` | Regras, rotinas, guias e modelos em branco. Igual para todos os advogados |
 | **Pasta do advogado** | Google Drive, OneDrive, Dropbox ou uma pasta no computador | Perfil, posições, clientes, contratos, histórico. Só deste advogado |
-| **Configuração do assistente** | Instruções personalizadas, preferências ou memória do assistente | O endereço do método, onde fica a pasta e as regras que nada muda |
+| **Configuração do assistente** | Instruções personalizadas, preferências ou memória do assistente | O endereço do método, onde fica a pasta, as regras que nada muda e um resumo do método (`configuracao/bloco-de-configuracao.md`) |
 
 **Convenção de caminhos:**
 - Caminhos que começam com `_escritorio/` ou `clientes/` estão na **pasta do advogado**.

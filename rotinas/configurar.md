@@ -34,8 +34,10 @@ Diga, em no máximo 3 linhas:
 
 **Onde guardar**
 
-1. **Quem é você, e que assistentes de IA você usa?**
-   - Nome, OAB/UF, se trabalha sozinho(a) ou com equipe.
+1. **Como você trabalha, e que assistentes de IA você usa?**
+   - Sozinho(a) ou com equipe.
+   - **Não pergunte nome nem número da OAB.** Eles só são necessários para alguns
+     documentos e são pedidos quando o primeiro desses documentos for redigido.
    - Quais assistentes (ChatGPT, Claude, Gemini, outro) e onde: no computador, na web, no
      celular.
 2. **Onde ficam, ou vão ficar, seus arquivos de trabalho?**
@@ -127,11 +129,12 @@ A partir de `estrutura/`, no método, no formato escolhido:
 
 ## Entregar o bloco de configuração
 
-1. Preencha o bloco de `configuracao/bloco-de-configuracao.md` com:
-   - nome, OAB;
-   - endereço do método;
-   - **link da pasta** (não só o nome: pode haver pastas com o mesmo nome) ou caminho
-     local.
+1. Escolha o bloco de `configuracao/bloco-de-configuracao.md`:
+   - **completo**, para ChatGPT pago, Claude, Gemini e Grok;
+   - **curto**, para ChatGPT Free ou Go, ou campo com limite de 1.500 caracteres.
+
+   Preencha só a pasta: o **link da pasta** (não só o nome, porque pode haver pastas com o
+   mesmo nome) ou o caminho no computador. O bloco não leva nome nem OAB.
 2. Entregue o bloco **pronto para copiar**, com o passo a passo de onde colar em cada
    assistente que o advogado citou (`configuracao/ferramentas.md`).
 3. Se você tiver memória e o advogado pedir, guarde o bloco nela também. **Só o bloco;

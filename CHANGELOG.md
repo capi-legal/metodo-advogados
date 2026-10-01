@@ -3,6 +3,21 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.3 · 2026-10-01
+
+- O bloco de configuração passa a trazer um **resumo do método**. Assim as regras e o
+  jeito de trabalhar valem mesmo quando o assistente não abre o endereço do método.
+- Dois blocos:
+  - completo, com cerca de 3.200 caracteres, para ChatGPT pago, Claude, Gemini e Grok;
+  - curto, com cerca de 900 caracteres, para ChatGPT Free e Go.
+- O bloco e a configuração **não pedem mais nome nem número da OAB**. Esses dados são
+  opcionais no perfil e só são pedidos quando um documento precisar deles.
+- `configuracao/instrucoes-curtas.md` foi removido; o conteúdo está no bloco completo.
+- `configuracao/ferramentas.md` foi reescrito:
+  - como começar;
+  - onde colar o bloco;
+  - o que cada assistente consegue fazer na pasta, no computador ou por conector.
+
 ## 0.2 · 2026-10-01
 
 - O método passa a viver num repositório público, separado da pasta do advogado.
