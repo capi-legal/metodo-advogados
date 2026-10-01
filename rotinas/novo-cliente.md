@@ -1,0 +1,105 @@
+# Rotina: novo cliente, novo assunto, ou organizar um cliente existente
+
+**Quando usar:**
+- "novo cliente";
+- "abre um assunto para…";
+- "chegou um contrato do cliente X" e o assunto ainda não existe;
+- "organiza a pasta do cliente Y".
+
+---
+
+## Passo 1: checar conflito
+
+Antes de criar qualquer coisa, leia `_escritorio/clientes.md` e procure:
+
+- o novo cliente entre as **contrapartes** de outros clientes;
+- a **contraparte** do novo assunto entre os **clientes** atuais e antigos.
+
+Se encontrar algo, informe objetivamente: "A Fornecedora Alfa aparece como contraparte em
+um assunto da Padaria Silva (2026)". A análise de conflito e a decisão são do advogado; o
+assistente só aponta o que encontrou no índice.
+
+Não abra as pastas desses clientes para investigar.
+
+## Passo 2: criar ou localizar o cliente
+
+**Cliente novo:**
+
+1. Crie `clientes/<nome-curto>/`, por exemplo `clientes/padaria-silva/`, com letras
+   minúsculas, sem acento e com hífens. Se `_escritorio/configuracao` indicar outra pasta
+   de clientes, use-a.
+2. Crie dentro dela o registro `cliente` a partir de `estrutura/cliente/cliente.md`, no
+   método. Use o formato de `_escritorio/configuracao` (`.md` ou Google Docs). Preencha o
+   essencial. Pergunte só o que falta:
+   - nome ou razão social;
+   - CPF ou CNPJ;
+   - quem assina e com que poderes;
+   - contato;
+   - canal preferido.
+
+   O resto pode ficar `[preencher]`.
+3. Acrescente uma linha em `_escritorio/clientes.md`. Se ainda houver linha de exemplo,
+   apague-a.
+
+**Cliente existente:** abra o registro `cliente` dele e siga.
+
+## Passo 3: criar o assunto
+
+1. Crie a pasta `clientes/<cliente>/AAAA-MM-tipo-contraparte/`, por exemplo
+   `2026-10-saas-alfa/`, com as subpastas `versoes/`, `documentos/` e `entregas/`.
+2. Crie `ficha` e `historico` a partir de `estrutura/assunto/`, no formato da
+   configuração, e preencha a `ficha`:
+   - contraparte;
+   - tipo;
+   - lado do cliente;
+   - de quem é a minuta;
+   - valor e prazo, se já souber;
+   - o que o cliente quer, em 2 a 5 frases;
+   - próximo passo.
+3. Se veio um contrato, salve uma cópia fiel como `versoes/v01-AAAA-MM-DD-origem.ext` e
+   registre na tabela de versões. **Não duplique o contrato em `documentos/`**: a v01 já é
+   o original. Outros arquivos (contrato social, e-mails, conversas) vão para
+   `documentos/`.
+4. `historico`: primeira entrada, "Assunto aberto".
+5. Atualize a tabela "Assuntos" do registro `cliente` e a coluna "Assuntos ativos" do índice.
+
+## Passo 4: documentos de início (opcional, pergunte)
+
+Pergunte: "Quer que eu prepare os documentos de início? Proposta de honorários, contrato
+de honorários, procuração."
+
+- **Use os modelos do advogado** em `_escritorio/modelos/`, preenchendo com `cliente.md`.
+- Se ele não tiver modelo, ofereça um rascunho. Os valores de honorários ficam
+  `[decidir: valor e forma de cobrança]`. **Os honorários são decisão do advogado.** Não
+  sugira valores. Se ele perguntar, lembre que existe a tabela de honorários da seccional
+  da OAB.
+- **Termo de uso de IA:** veja `perfil.md`.
+  - Se for "sim", gere a partir de `modelos/termo-de-uso-de-ia.md` (termo separado ou
+    cláusula, conforme o perfil).
+  - Se ainda não decidido, pergunte **uma vez**: "Quer usar um termo de ciência sobre uso
+    de IA com seus clientes? A Recomendação CFOAB 001/2024 orienta formalizar o uso de IA
+    com o cliente." Grave a resposta no perfil e não pergunte de novo.
+  - Registre o status no `cliente.md`.
+- Salve tudo em `documentos/` do cliente ou do assunto, como **novos** arquivos.
+
+## Passo 5: fechar
+
+Mostre em até 6 linhas o que foi criado e onde. Ofereça o próximo passo natural, por
+exemplo: "Quer que eu revise a v01 agora?".
+
+---
+
+## Organizar um cliente que já existe (pastas antigas)
+
+Use quando o advogado já tem uma pasta do cliente no Drive ou OneDrive, com arquivos
+soltos.
+
+1. **Não mova nem renomeie nada sem perguntar.**
+2. Liste o que existe: tipos de documento, contratos aparentes, versões, datas.
+3. Crie `cliente.md` na pasta do cliente. Para cada contrato em andamento, crie a pasta do
+   assunto com `ficha.md` e `historico.md`.
+   - Na tabela de versões, **aponte para os arquivos onde estão hoje** (caminho
+     relativo).
+4. Proponha uma reorganização: o que iria para `versoes/`, `documentos/` e `entregas/`.
+   Só execute se o advogado aprovar, e registre no `historico.md`.
+5. Contratos já assinados: ofereça extrair as datas (`rotinas/datas-do-contrato.md`).
