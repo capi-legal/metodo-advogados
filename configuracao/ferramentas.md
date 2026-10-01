@@ -5,12 +5,16 @@
 
 ## 1. Comece (em qualquer assistente)
 
-Abra uma conversa nova e escreva:
+Copie o texto de `prompt-de-configuracao.md`, que está na página do método, e cole numa
+conversa nova.
 
-> Leia https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/AGENTS.md e vamos configurar.
-
-Um endereço escrito na conversa é aberto por todos os assistentes. O assistente faz 6
-perguntas, monta ou adota a sua pasta de trabalho e entrega o **bloco de configuração**.
+O prompt funciona mesmo em assistentes que não abrem links (por exemplo, o Gemini), porque
+traz o essencial no próprio texto. O assistente:
+- explica o que vai fazer;
+- faz 5 perguntas;
+- monta ou adota a sua pasta de trabalho;
+- guarda na memória dele onde ela fica;
+- entrega o **bloco de configuração**.
 
 ## 2. Cole o bloco nas configurações
 

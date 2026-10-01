@@ -22,12 +22,14 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
 1. Abra o seu assistente. Para a experiência completa, use um assistente no computador:
    Claude (Cowork), o app do ChatGPT para computador ou Codex, sobre uma pasta sincronizada.
    Passo a passo em `configuracao/ferramentas.md`.
-2. Escreva:
-
-   > Leia https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/AGENTS.md e vamos configurar.
-3. Responda às 6 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
-   3 minutos.
-4. Cole o **bloco de configuração** que o assistente entregar nas configurações dele. Os
+2. Copie o texto do **[prompt de configuração](prompt-de-configuracao.md)** e cole numa
+   conversa nova. Antes de perguntar qualquer coisa, o assistente explica o que vai fazer,
+   o que vai acessar e o que fica privado.
+3. Responda às 5 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
+   3 minutos. O assistente cria a sua pasta de trabalho e guarda na memória dele onde ela
+   fica.
+4. Recomendado: cole o **bloco de configuração** que o assistente entregar nas
+   configurações dele. Os
    menus de cada assistente estão em `configuracao/bloco-de-configuracao.md`.
    - O bloco traz a sua pasta, as regras que nada muda e um resumo do método.
    - Não traz nome nem número da OAB.

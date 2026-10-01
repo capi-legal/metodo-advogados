@@ -3,6 +3,26 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.4 · 2026-10-01
+
+Ajustes após o primeiro teste com um advogado.
+
+- **Prompt de configuração** (`prompt-de-configuracao.md`). É um texto único que o
+  advogado copia e cola numa conversa nova. Funciona sem abrir links, inclusive no Gemini.
+  O assistente:
+  - explica antes o que vai fazer, o que acessa e o que fica privado, e só começa depois
+    do "sim";
+  - verifica se já existe configuração;
+  - faz 5 perguntas, com opções fixas e o "para quê" de cada uma;
+  - pergunta sobre o armazenamento em dois passos (onde você guarda hoje; pasta nova ou
+    existente);
+  - testa o acesso;
+  - guarda uma nota curta na memória;
+  - oferece o bloco para as instruções.
+- **`AGENTS.md` lista o endereço completo de cada arquivo do método** (§12). O Claude só
+  abre endereços escritos por extenso. No teste, ele não conseguiu abrir as rotinas.
+- `rotinas/configurar.md` passa a apontar para o prompt, que é a única fonte dos passos.
+
 ## 0.3 · 2026-10-01
 
 - O bloco de configuração passa a trazer um **resumo do método**. Assim as regras e o
