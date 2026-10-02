@@ -22,16 +22,69 @@ pelo advogado, por exemplo "Escritório IA".
   clientes/
     <cliente>/
       cliente         dados do cliente, quem assina, canal preferido
-      <AAAA-MM-tipo-contraparte>/
+      <AAAA-MM_assunto-curto>/
         ficha         estado atual do assunto, versões, próximo passo
         historico     registro do que foi feito, por quê, a pedido de quem
-        versoes/      v01, v02… (nunca sobrescritos)
-        documentos/   originais recebidos: contrato social, e-mails, conversas
-        entregas/     revisões, comparações, resumos
+        01_documentos/  originais recebidos: contrato social, e-mails, conversas
+        02_versoes/     v01, v02… do contrato (nunca sobrescritos)
+        03_entregas/    revisões, comparações, resumos
+  _legado/            opcional: material anterior ao método, só leitura
 ```
 
-Se o advogado já tem pastas de clientes, a estrutura se adapta a elas: o assistente cria
-os registros ao lado dos arquivos existentes, sem mover nada sem perguntar.
+As subpastas do assunto são numeradas para aparecerem na ordem do trabalho, em qualquer
+aplicativo: o que chegou, as versões, o que sai.
+
+**Assuntos criados antes da versão 0.5** podem ter nomes no padrão antigo
+(`AAAA-MM-tipo-contraparte`) e subpastas sem número (`documentos/`, `versoes/`,
+`entregas/`). O assistente usa as pastas que existirem e não renomeia nada sem perguntar.
+
+## Nomes de pastas e arquivos
+
+**Pasta do assunto:** `AAAA-MM_assunto-curto`, por exemplo `2026-10_saas-gestao-estoque`.
+- O assunto descreve o objeto do contrato de forma **neutra**: `prestacao-servicos-ti`,
+  nunca `divorcio-joao` ou o nome da contraparte.
+- Contraparte, valores e motivos ficam na `ficha` e no índice `_escritorio/clientes`.
+
+**Versões do contrato (`02_versoes/`):** `vNN-AAAA-MM-DD-origem.ext`, por exemplo
+`v02-2026-10-14-contraparte.docx`. Origem: `nossa`, `contraparte`, `cliente` ou
+`assinada`. Detalhes na `ficha`.
+
+**Documentos recebidos (`01_documentos/`):** `AAAA-MM-DD_tipo_descritor.ext`, por exemplo
+`2026-10-12_email_proposta-prazo-entrega.eml`.
+- **Data:** a do documento (assinatura, envio, emissão), não a do download. Data
+  desconhecida: `sem-data_tipo_descritor.ext`. Nunca invente uma data.
+- **Tipo**, de uma lista curta: `contrato`, `minuta`, `aditivo`, `ata`, `parecer`,
+  `notificacao`, `procuracao`, `email`, `conversa`, `comprovante`, `certidao`, `planilha`,
+  `apresentacao`, `outro`.
+- **Descritor:** curto, com hífens entre as palavras.
+
+**Entregas (`03_entregas/`):** `AAAA-MM-DD-tipo`, por exemplo `2026-10-15-revisao-v02.md`.
+Cada rotina indica o nome.
+
+**Regras para todos os nomes:**
+- Letras minúsculas, sem acento, cedilha ou espaço.
+- **Nada sensível no nome:** CPF, CNPJ, valores de acordo, motivos, fatos íntimos. Nomes
+  aparecem em links compartilhados, e-mails, registros de sincronização e conversas com a
+  IA.
+- Nunca `final`, `novo` ou `revisado` no nome: a pasta e o número da versão dizem isso.
+- Um documento, um arquivo. Prefira PDF com texto pesquisável a fotos soltas.
+- Caminho completo com menos de 255 caracteres.
+- Esses padrões valem para os arquivos que o assistente cria. Arquivos que o advogado já
+  salvou com outro nome só são renomeados se ele aprovar.
+
+## Quem já tem pastas de clientes
+
+Duas opções. O advogado escolhe na configuração ou no primeiro cliente:
+
+1. **Adaptar no lugar** (padrão). O assistente cria os registros ao lado dos arquivos
+   existentes, aponta para eles na `ficha` e não move nada sem perguntar.
+2. **Data de corte.** A partir de uma data, tudo o que é novo segue o método. O material
+   antigo vai, pelo próprio advogado ou com o OK dele, para `_legado/`, e ali fica intacto.
+   - Quando um assunto antigo for reaberto, o assistente **copia** (não move) os arquivos
+     dele para a estrutura nova, cria a `ficha` e registra no `historico` os nomes
+     originais dos arquivos renomeados.
+   - Antes de qualquer renomeação em lote: cópia de segurança. Duplicados não são
+     apagados sem conferir.
 
 ## Formato dos registros: `.md` ou Google Docs
 

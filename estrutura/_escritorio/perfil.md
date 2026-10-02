@@ -54,7 +54,8 @@ Marcadores:
 
 A pasta, os assistentes e o formato dos arquivos estão em `_escritorio/configuracao.md`.
 
-- **Como nomeio os arquivos:** [padrão: `vNN-AAAA-MM-DD-origem`, ver a `ficha`]
+- **Como nomeio os arquivos:** [padrão: versões `vNN-AAAA-MM-DD-origem`; documentos
+  recebidos `AAAA-MM-DD_tipo_descritor`; ver `estrutura/LEIA-ME.md`, no método]
 - **Sistema jurídico que uso:** [preencher ou "nenhum"]. É lá que ficam meus prazos
   oficiais; o assistente não o substitui.
 

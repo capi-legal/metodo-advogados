@@ -3,6 +3,33 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.5 · 2026-10-02
+
+Organização e nomes de arquivos revistos. A estrutura por versões, que serve melhor a
+contratos, foi mantida.
+
+- **Subpastas do assunto numeradas**, na ordem do trabalho: `01_documentos/`,
+  `02_versoes/`, `03_entregas/`. A `ficha` e o `historico` mantêm os nomes.
+- **Pasta do assunto com nome neutro:** `AAAA-MM_assunto-curto`, sem o nome da
+  contraparte, de pessoas, motivos ou valores. Eles ficam na `ficha`.
+- **Assuntos criados antes da 0.5** continuam valendo com os nomes antigos. O assistente
+  usa as pastas que existirem e não renomeia sem perguntar.
+- **Nomes de documentos recebidos:** `AAAA-MM-DD_tipo_descritor.ext`, com lista curta de
+  tipos e `sem-data_` quando a data é desconhecida. Os nomes das versões não mudam.
+- **Regras para todos os nomes:** minúsculas, sem acento nem espaço, nada sensível
+  (CPF, CNPJ, valores, motivos), sem "final" ou "revisado".
+- **Permissão de IA por assunto:** campo "IA pode ler esta pasta?" no topo da `ficha`. Se
+  for "não", o assistente para. Também no bloco de configuração.
+- **Guarda de arquivos:** campos "Encerrado em" e "Guardar até" na `ficha`, com piso de
+  5 anos. No encerramento, o fim da guarda vai para `datas-chave`. O assistente só avisa;
+  nada é apagado sem o OK do advogado.
+- **Antes de um arquivo sair do escritório:** lembrar de remover autor, comentários e
+  histórico de alterações, salvo num redline intencional.
+- **Pastas antigas:** opção de data de corte com `_legado/` (só leitura), além de adaptar
+  no lugar. Ao reabrir um assunto antigo, copiar em vez de mover.
+- **Ponteiro na raiz da pasta** (`estrutura/raiz/AGENTS.md`) traz as regras da pasta:
+  ficha primeiro, estrutura, nomes, propor em vez de executar, não inventar dados.
+
 ## 0.4 · 2026-10-01
 
 Ajustes após o primeiro teste com um advogado.

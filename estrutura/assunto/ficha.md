@@ -1,9 +1,13 @@
 # Ficha do assunto: [contrato, ex.: SaaS com Fornecedora Alfa]
 
-O estado atual deste assunto, numa página. O assistente lê este arquivo primeiro e o
-mantém atualizado. A história completa fica em `historico.md`.
+- **IA pode ler esta pasta?** [sim | não]. Termo do cliente: [ver `../cliente.md`]
 
-Nome da pasta do assunto: `AAAA-MM-tipo-contraparte`, ex.: `2026-10-saas-alfa`.
+O estado atual deste assunto, numa página. O assistente lê este arquivo primeiro e o
+mantém atualizado. Se "IA pode ler esta pasta?" disser "não", ele para e não abre mais
+nada do assunto. A história completa fica em `historico.md`.
+
+Nome da pasta do assunto: `AAAA-MM_assunto-curto`, neutro, ex.: `2026-10_saas-gestao-estoque`.
+Nada de nomes de pessoas, motivos ou valores no nome: eles ficam aqui.
 
 ## Resumo
 
@@ -17,7 +21,9 @@ Nome da pasta do assunto: `AAAA-MM-tipo-contraparte`, ex.: `2026-10-saas-alfa`.
 - **Status:** [em análise | em negociação | aguardando cliente | aguardando contraparte |
   pronto para assinar | assinado | encerrado]
 - **Confidencialidade:** [padrão | reforçada: explicar abaixo]
-- **Aberto em:** [AAAA-MM-DD]
+- **Aberto em:** [AAAA-MM-DD] · **Encerrado em:** [ ]
+- **Guardar até:** [mínimo de 5 anos após o encerramento; acima disso, decisão do
+  advogado]. Ao chegar a data, o assistente só avisa: nada é apagado sem o OK do advogado.
 
 ## O que o cliente quer
 
@@ -32,14 +38,14 @@ Combinações que valem só aqui e prevalecem sobre `_escritorio/posicoes.md`.
 
 ## Versões do contrato
 
-Nunca sobrescrever: cada versão é um arquivo novo em `versoes/`.
+Nunca sobrescrever: cada versão é um arquivo novo em `02_versoes/`.
 
 Nome do arquivo: `vNN-AAAA-MM-DD-origem.ext`. Origem: `nossa`, `contraparte`, `cliente`
 ou `assinada`.
 
 | Versão | Data | Origem | Arquivo | O que mudou |
 |---|---|---|---|---|
-| v01 | [AAAA-MM-DD] | [contraparte] | `versoes/v01-AAAA-MM-DD-contraparte.docx` | Minuta inicial recebida |
+| v01 | [AAAA-MM-DD] | [contraparte] | `02_versoes/v01-AAAA-MM-DD-contraparte.docx` | Minuta inicial recebida |
 
 ## Datas do contrato
 

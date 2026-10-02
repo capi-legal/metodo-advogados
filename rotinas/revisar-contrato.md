@@ -26,7 +26,7 @@ triagem de NDA, nova minuta recebida para análise.
    - Diga no resultado qual lado foi aplicado.
 3. **Guia do tipo.** Abra `guias/pontos-gerais.md` e o guia do tipo de contrato, se
    houver.
-4. **Arquivo.** Se o contrato chegou agora, salve-o em `versoes/` com o próximo número
+4. **Arquivo.** Se o contrato chegou agora, salve-o em `02_versoes/` com o próximo número
    (`vNN-AAAA-MM-DD-origem`). Não altere o original.
 5. **Perfil sem configurar.** Se `posicoes.md` estiver todo em `[padrão]`, avise uma vez:
    "Vou revisar com posições padrão de mercado; ajustamos às suas depois." Depois siga.
@@ -134,7 +134,7 @@ Liste todas as referências legais usadas, cada uma com a etiqueta de origem
 
 ## Passo 6: montar a entrega
 
-Salve em `entregas/AAAA-MM-DD-revisao-vNN.md`, e também em `.docx` se o perfil pedir Word
+Salve em `03_entregas/AAAA-MM-DD-revisao-vNN.md`, e também em `.docx` se o perfil pedir Word
 e a ferramenta permitir.
 
 **Tamanho proporcional ao contrato.** Um contrato de 1 a 3 páginas raramente precisa de
@@ -165,7 +165,7 @@ Pontos: [N]🔴 [N]🟠 [N]🟡 [N]🟢
 Uma pergunta que eu faria: [opcional]
 
 E agora?
-1. Preparo a versão com todas as sugestões (nova versão em versoes/).
+1. Preparo a versão com todas as sugestões (nova versão em 02_versoes/).
 2. Preparo as perguntas para o cliente sobre os pontos [decidir].
 3. Faço o resumo para o cliente (WhatsApp ou e-mail).
 4. Outra coisa.

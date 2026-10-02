@@ -20,6 +20,8 @@ O assistente lê este arquivo no início de cada sessão. Você pode editar à v
   No Google Drive, abra a pasta e copie o endereço do navegador.
 - **Pasta de clientes:** [padrão: `clientes/` dentro desta pasta]. Se você já tem pastas
   de clientes em outro lugar, indique aqui.
+- **Pastas antigas:** [adaptar no lugar (padrão) | data de corte AAAA-MM-DD, material
+  antigo em `_legado/`]. As duas opções estão em `estrutura/LEIA-ME.md`, no método.
 - **Sincronizada no computador?** [sim: modo espelhar ou disponível off-line | não]
 
 ## Formato dos registros

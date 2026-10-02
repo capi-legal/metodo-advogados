@@ -14,7 +14,7 @@ Linhas em itálico que começam com _exemplo_ são só ilustração. O assistent
 
 | Data | O quê | Cliente | Contrato (assunto) | Como chegou nesta data | Status |
 |---|---|---|---|---|---|
-| _exemplo: 2027-01-01_ | _Último dia para avisar que não renova_ | _Padaria Silva_ | _`2026-10-saas-alfa`_ | _Término 2027-01-31 menos 30 dias (cl. 12.2) [conferir]_ | _aberta_ |
+| _exemplo: 2027-01-01_ | _Último dia para avisar que não renova_ | _Padaria Silva_ | _`2026-10_saas-gestao-estoque`_ | _Término 2027-01-31 menos 30 dias (cl. 12.2) [conferir]_ | _aberta_ |
 
 ## Encerradas
 

@@ -12,7 +12,7 @@ de prazos do advogado continua sendo o dele (`perfil.md`).
 
 ## Modo 1: extrair as datas de um contrato
 
-1. Leia a versão assinada (`versoes/vNN-...-assinada`). Se só houver minuta, avise que as
+1. Leia a versão assinada (`02_versoes/vNN-...-assinada`). Se só houver minuta, avise que as
    datas podem mudar.
 2. Extraia, citando a cláusula de cada uma:
    - início da vigência;
@@ -55,6 +55,19 @@ Pedido como "o que vence nos próximos 90 dias?":
 Para contratos assinados antes de usar esta pasta, ofereça uma varredura **por cliente**:
 o advogado aponta a pasta e o assistente aplica o Modo 1 a cada contrato. Sem cliente
 definido, não varra pastas de vários clientes de uma vez.
+
+## Encerrar um assunto: guarda dos arquivos
+
+Quando o assunto for encerrado:
+
+1. Preencha na `ficha` "Encerrado em" e "Guardar até": no mínimo 5 anos após o
+   encerramento (Estatuto da Advocacia, arts. 25 e 25-A `[conferir]`), ou o prazo maior
+   que o advogado definir.
+2. Acrescente uma linha em `datas-chave.md`: "Fim da guarda mínima", com a conta. Assim
+   ela aparece no Modo 2 quando chegar.
+3. Quando chegar, **só avise**: "O prazo mínimo de guarda deste assunto terminou. Quer
+   manter, ou decidir o que fazer?". Diga que o prazo foi contado do encerramento, uma
+   aproximação. Nada é apagado, movido ou bloqueado sem o OK expresso do advogado.
 
 ## Fechar uma data
 

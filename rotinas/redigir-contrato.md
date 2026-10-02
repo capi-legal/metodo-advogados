@@ -68,7 +68,7 @@ Passe a minuta por `guias/pontos-gerais.md` e pelo guia do tipo. Confira no mín
 
 ## Passo 5: salvar e entregar
 
-1. Salve como nova versão em `versoes/vNN-AAAA-MM-DD-nossa.docx`, ou `.md` se a ferramenta
+1. Salve como nova versão em `02_versoes/vNN-AAAA-MM-DD-nossa.docx`, ou `.md` se a ferramenta
    não gerar Word. Nunca sobrescreva.
 2. Entregue, junto com a minuta, uma nota curta:
    - base usada;

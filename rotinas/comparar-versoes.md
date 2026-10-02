@@ -16,7 +16,7 @@ comentário ou fora da lista enviada pela outra parte.
 
 1. Pela tabela de versões da `ficha.md`, identifique a **última versão nossa** e a **versão
    recebida**. Se a ordem não estiver clara pelos nomes e datas, pergunte.
-2. Salve a versão recebida, sem alterar, como `versoes/vNN-AAAA-MM-DD-contraparte.ext`.
+2. Salve a versão recebida, sem alterar, como `02_versoes/vNN-AAAA-MM-DD-contraparte.ext`.
    Pergunte antes de renomear um arquivo que o advogado já salvou com outro nome.
 3. A contraparte mandou uma lista do que mudou (e-mail, comentários, carta)? Leia. Ela
    serve para cruzar com o que de fato mudou.
@@ -37,7 +37,7 @@ Compare cláusula por cláusula, não só os trechos marcados. Procure em especi
 
 ## Passo 3: montar a tabela
 
-Salve em `entregas/AAAA-MM-DD-comparacao-vNN-vMM.md`:
+Salve em `03_entregas/AAAA-MM-DD-comparacao-vNN-vMM.md`:
 
 ```
 [bloco "Antes de usar" de AGENTS.md §7]

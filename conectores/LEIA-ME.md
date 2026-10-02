@@ -37,8 +37,8 @@ Microsoft 365 costuma exigir conta corporativa e autorização do administrador.
 
 ## Sem conector
 
-Coloque o arquivo na pasta do assunto (em `versoes/` ou `documentos/`), ou cole o texto
+Coloque o arquivo na pasta do assunto (em `02_versoes/` ou `01_documentos/`), ou cole o texto
 na conversa.
 
 Conversas de WhatsApp: no celular, use "Exportar conversa" (sem mídia) e salve o .txt em
-`documentos/`. O assistente lê a conversa e atualiza a `ficha.md`.
+`01_documentos/`. O assistente lê a conversa e atualiza a `ficha.md`.

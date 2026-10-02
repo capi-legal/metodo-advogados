@@ -13,7 +13,7 @@ que eu preciso fazer.
 
 ## Passo 1: de onde vem o conteúdo
 
-- Se já existe uma revisão ou comparação em `entregas/`, **resuma essa entrega**. Não
+- Se já existe uma revisão ou comparação em `03_entregas/`, **resuma essa entrega**. Não
   revise o contrato de novo.
 - Se não existe, faça antes a revisão (`rotinas/revisar-contrato.md`) ou pergunte se o
   advogado quer só uma explicação do contrato.
@@ -91,5 +91,5 @@ A mensagem vai para fora do escritório. Antes de entregar, confira:
 - sem informação de outro cliente;
 - sem detalhe de estratégia que o advogado não queira mostrar.
 
-Entregue o texto pronto para copiar. Salve em `entregas/AAAA-MM-DD-resumo-cliente.md`.
+Entregue o texto pronto para copiar. Salve em `03_entregas/AAAA-MM-DD-resumo-cliente.md`.
 Registre no `historico.md` ("resumo preparado; envio pelo advogado").

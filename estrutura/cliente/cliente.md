@@ -22,7 +22,7 @@ uma subpasta criada a partir de `estrutura/assunto/`.
 ## Relação com o escritório
 
 - **Cliente desde:** [AAAA-MM]
-- **Contrato de honorários:** [arquivo em `documentos/` ou "não aplicável"]
+- **Contrato de honorários:** [arquivo em `01_documentos/` ou "não aplicável"]
 - **Procuração:** [arquivo ou "não aplicável"]
 - **Termo de uso de IA:** [não solicitado | enviado AAAA-MM-DD | assinado AAAA-MM-DD,
   arquivo | recusado]. Se recusado, o assistente não processa documentos deste cliente.
@@ -31,7 +31,7 @@ uma subpasta criada a partir de `estrutura/assunto/`.
 
 | Assunto (pasta) | Tipo | Status | Aberto em |
 |---|---|---|---|
-| [ex.: `2026-10-saas-alfa`] | [ex.: SaaS, lado contratante] | [em negociação] | [2026-10-01] |
+| [ex.: `2026-10_saas-gestao-estoque`] | [ex.: SaaS, lado contratante] | [em negociação] | [2026-10-01] |
 
 ## Observações
 

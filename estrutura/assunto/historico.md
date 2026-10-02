@@ -18,5 +18,5 @@ Cada entrada tem de 3 a 6 linhas:
 - **O que:** pasta criada; recebida a minuta inicial (v01).
 - **Por quê:** [ex.: cliente vai contratar plataforma de gestão]
 - **Pedido por:** [ex.: cliente, por WhatsApp]
-- **Arquivos:** `versoes/v01-AAAA-MM-DD-contraparte.docx`
+- **Arquivos:** `02_versoes/v01-AAAA-MM-DD-contraparte.docx`
 - **Próximo:** revisar a v01 contra as posições do lado contratante.
