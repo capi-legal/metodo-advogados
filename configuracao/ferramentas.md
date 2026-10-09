@@ -10,6 +10,8 @@ conversa nova.
 
 O prompt funciona mesmo em assistentes que não abrem links (por exemplo, o Gemini), porque
 traz o essencial no próprio texto. O assistente:
+- confere se a conversa alcança a sua pasta (modo de trabalho no computador ou conector
+  de nuvem); se não alcançar, diz onde clicar e pede para reabrir a conversa;
 - explica o que vai fazer;
 - faz 5 perguntas;
 - monta ou adota a sua pasta de trabalho;

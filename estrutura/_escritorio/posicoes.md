@@ -20,7 +20,8 @@ Regras deste arquivo:
 
 ## A coisa que sempre olho primeiro
 
-Se um contrato tiver só um problema que me faria recusar, é este:
+Se um contrato tiver só um problema que me faria recusar, é este. Não é perguntado na
+configuração: o assistente propõe quando perceber, com o uso, e só grava com o seu OK.
 
 - [preencher, ex.: "responsabilidade ilimitada para o meu cliente", "multa rescisória
   desproporcional", "foro em outro estado"]

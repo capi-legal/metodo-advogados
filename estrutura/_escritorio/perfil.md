@@ -1,6 +1,6 @@
 # Perfil do escritório
 
-Preenchido pela configuração de 2 minutos (`rotinas/configurar.md`) e ajustado com o
+Preenchido pela configuração de 3 minutos (`rotinas/configurar.md`) e ajustado com o
 uso. Você pode editar este arquivo à vontade. Está escrito em português comum, não é
 configuração técnica.
 
@@ -14,6 +14,11 @@ Marcadores:
 
 ## Quem sou
 
+- **Função:** [preencher]. Opções: advogado(a) interno(a) de uma empresa; advogado(a)
+  num escritório; advogado(a) autônomo(a); fundador(a) ou sócio(a) de uma empresa; outra
+  função numa empresa, sem formação jurídica. Se não for advogado(a), o assistente usa
+  linguagem simples e sugere a revisão por um advogado antes de assinar algo de risco
+  alto (ver `AGENTS.md` §8).
 - **Nome e OAB:** [opcional]. Só são usados em documentos que precisam deles
   (procuração, contrato de honorários, termo de uso de IA). O assistente pergunta quando o
   primeiro desses documentos for redigido e guarda aqui. Nunca vão para a memória do
@@ -49,6 +54,14 @@ Marcadores:
 - **Particularidades de redação:** [preencher com o tempo, ex.: "uso 'Contratante' e
   'Contratada', nunca 'Parte A'", "cláusulas numeradas 1.1, 1.2", "sem negrito em caixa
   alta"]
+
+## Sempre que trabalhar para mim
+
+O que eu repetia a cada conversa nova. O assistente segue estas regras em todo trabalho,
+sem eu precisar lembrar. Sem dados de clientes.
+
+- [preencher, ex.: "sempre em português formal", "nunca use 'Parte A'", "me mostre
+  primeiro um resumo de 3 linhas"]
 
 ## Como trabalho
 

@@ -23,8 +23,10 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
    Claude (Cowork), o app do ChatGPT para computador ou Codex, sobre uma pasta sincronizada.
    Passo a passo em `configuracao/ferramentas.md`.
 2. Copie o texto do **[prompt de configuração](prompt-de-configuracao.md)** e cole numa
-   conversa nova. Antes de perguntar qualquer coisa, o assistente explica o que vai fazer,
-   o que vai acessar e o que fica privado.
+   conversa nova. Antes de perguntar qualquer coisa, o assistente confere se está num modo
+   que alcança a sua pasta e explica o que vai fazer, o que vai acessar e o que fica
+   privado. Se não estiver, ele diz onde clicar e pede para reabrir a conversa no lugar
+   certo.
 3. Responda às 5 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
    3 minutos. O assistente cria a sua pasta de trabalho e guarda na memória dele onde ela
    fica.

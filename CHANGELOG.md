@@ -3,6 +3,25 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.6 · 2026-10-09
+
+Configuração refeita depois do teste com uma pasta no computador.
+
+- **O lugar certo vem primeiro.** O assistente diz em qual app e modo está, explica que
+  precisa de uma pasta (modo de trabalho no computador ou conector de nuvem) e pergunta
+  onde ficam os arquivos antes de tudo. Testa ler, criar e editar ali mesmo.
+- **Sem acesso, a configuração para.** O assistente mostra os cliques do próprio app
+  (Claude, ChatGPT, Codex e outros) e recomenda reabrir a conversa no lugar certo. Não
+  prepara arquivos nem pacotes para copiar depois.
+- **Perguntas novas:** quem é o usuário (advogado interno, de escritório, autônomo,
+  fundador ou sócio, outra função) e o que ele repete a cada conversa, que vira a seção
+  "Sempre que trabalhar para mim" do `perfil` e a seção "Minhas regras" do bloco.
+- **Perguntas retiradas:** o lado do cliente (fica `[padrão: varia]`, confirmado em cada
+  assunto) e "a coisa que sempre olho primeiro" (aprendida com o uso).
+- **Todas as opções e o "para quê"** são obrigatórios em cada pergunta, sem resumir.
+- **Usuário que não é advogado:** linguagem simples, e a Capi é sugerida antes de assinar
+  ou enviar algo de risco alto (`AGENTS.md` §1 e §8). O bloco começa com "[quem sou]".
+
 ## 0.5 · 2026-10-02
 
 Organização e nomes de arquivos revistos. A estrutura por versões, que serve melhor a

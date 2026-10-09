@@ -11,14 +11,18 @@ https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/prompt-de-con
 
 - Se o advogado colou o prompt na conversa, siga-o.
 - Se ele pediu para configurar numa conversa em que você já segue o método, abra o
-  endereço acima e siga os passos 0 a 7.
+  endereço acima e siga os passos 0 a 6.
 - Se não conseguir abrir, peça que ele copie o texto da página e cole na conversa.
 
 O prompt cuida de:
 - checar se já existe configuração;
-- explicar antes de perguntar;
-- fazer 5 perguntas com o "para quê";
-- conectar e testar a pasta;
+- conferir se a conversa está num modo com pasta de trabalho ou conector, e explicar
+  antes de perguntar;
+- perguntar onde ficam os arquivos, conectar e testar a pasta. **Sem acesso testado, a
+  configuração para:** o assistente explica os cliques do app e recomenda reabrir a
+  conversa no lugar certo. Nada é preparado para copiar depois;
+- fazer mais 4 perguntas, com todas as opções e o "para quê": contratos e áreas fora do
+  trabalho, quem é o usuário, canal e tom, e o que ele repete a cada conversa;
 - criar a estrutura;
 - guardar uma nota curta na memória;
 - oferecer o bloco para as instruções.
@@ -36,9 +40,9 @@ O prompt cuida de:
 4. Ofereça copiar os modelos, sem dados de clientes, para `_escritorio/modelos/`.
 
 **Ligar outro assistente à mesma pasta.** Não refaça as perguntas.
-1. Conecte e teste a pasta (passo 3 do prompt).
-2. Guarde a nota na memória (passo 5).
-3. Ofereça o bloco (passo 6).
+1. Confira o modo da conversa, conecte e teste a pasta (passos 0 e 1 do prompt).
+2. Guarde a nota na memória (passo 4).
+3. Ofereça o bloco (passo 5).
 4. Acrescente o assistente em `_escritorio/configuracao`.
 
 **Pausa.** Se o advogado disser "pausa":
