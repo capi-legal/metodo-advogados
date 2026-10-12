@@ -17,8 +17,9 @@ Ajustes do teste da configuração pelo conector da Capi (Claude Desktop, 2026-1
 - **Fechamento:** lista o que foi criado, inclusive os ponteiros na raiz, e sugere como
   teste uma pergunta sobre contrato. "Onde ficam meus arquivos?" é respondida pelo perfil e
   não mostra se o método está sendo seguido.
-- **Conector da Capi:** com ele ligado, o assistente pede os arquivos do método ao conector
-  em vez do endereço (`AGENTS.md`, `rotinas/configurar.md`). Endereço do conector em
+- **Conector da Capi:** com ele ligado, a configuração vem do conector
+  (`rotinas/configurar.md`). No trabalho do dia a dia o assistente segue o método da pasta;
+  a Capi entra no fim, para sugerir a revisão por um advogado (§8). Endereço do conector em
   `conectores/capi.md`.
 
 ## 0.6 · 2026-10-09
