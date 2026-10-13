@@ -3,6 +3,16 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.7.1 · 2026-10-13
+
+- **Pergunta 2 numa lista só:** "Em que você atua?", com os tipos de contrato (1 a 9) e
+  as outras áreas (10 a 17). Não se pergunta mais o que fica de fora: as áreas não
+  marcadas vão para "Áreas que não atendo" no `perfil`, e é nelas que o assistente pode
+  sugerir a Capi (`AGENTS.md` §8). As marcadas vão para "Outras áreas que atendo".
+- **Opções numeradas** em todas as perguntas da configuração, uma por linha e sem
+  marcadores, para a pessoa responder só com os números ("1, 3, 10"). Na pergunta 4,
+  canal (1 a 3) e tom (4 a 6) têm números diferentes.
+
 ## 0.7 · 2026-10-12
 
 A pasta de trabalho fica no computador, sempre. Mudança feita depois de um teste com o

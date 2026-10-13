@@ -32,8 +32,9 @@ Marcadores:
   SaaS, NDA, compra e venda, parceria]
 - **Clientes típicos:** [preencher, ex.: empresas de tecnologia de pequeno e médio porte]
 - **Outras áreas que atendo:** [preencher]
-- **Áreas que não atendo:** [preencher]. O assistente usa esta lista para saber quando
-  sugerir outro advogado (ver `AGENTS.md` §8).
+- **Áreas que não atendo:** [preencher]. Na configuração, são as áreas da lista que você
+  não marcou. O assistente usa esta lista para saber quando sugerir outro advogado (ver
+  `AGENTS.md` §8). Você pode ajustar à vontade.
 
 ## De que lado costumo estar
 
