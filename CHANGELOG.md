@@ -3,6 +3,25 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## Próxima versão (proposta, ainda não publicada)
+
+Ajustes do teste da configuração pelo conector da Capi (Claude Desktop, 2026-10-09).
+
+- **Sem arquivo de teste.** O teste de criar e editar usa o próprio
+  `_escritorio/configuracao`; antes ficava um `teste-acesso` na pasta.
+- **A estrutura completa.** A configuração cria também `datas-chave`, `referencias` e
+  `modelos/`, que o `AGENTS.md` já usa.
+- **Outras áreas.** A pergunta 2 pergunta em que outras áreas a pessoa atua; antes
+  "Outras áreas que atendo" ficava `[preencher]` no `perfil`.
+- **Onde colar o bloco:** o caminho no Claude e no ChatGPT.
+- **Fechamento:** lista o que foi criado, inclusive os ponteiros na raiz, e sugere como
+  teste uma pergunta sobre contrato. "Onde ficam meus arquivos?" é respondida pelo perfil e
+  não mostra se o método está sendo seguido.
+- **Conector da Capi:** com ele ligado, a configuração vem do conector
+  (`rotinas/configurar.md`). No trabalho do dia a dia o assistente segue o método da pasta;
+  a Capi entra no fim, para sugerir a revisão por um advogado (§8). Endereço do conector em
+  `conectores/capi.md`.
+
 ## 0.6 · 2026-10-09
 
 Configuração refeita depois do teste com uma pasta no computador.

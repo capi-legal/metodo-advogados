@@ -41,7 +41,7 @@ Depois, confira se você alcança esse lugar AGORA, nesta conversa:
 - Pasta no computador: você precisa estar num app de computador com a pasta aberta como pasta de trabalho.
 - Nuvem: você precisa do conector daquele serviço ligado nesta conversa.
 
-Se alcançar, teste três coisas: ler, criar um arquivo e editar esse arquivo. Diga o resultado em uma frase. Não afirme que funciona sem ter testado.
+Se alcançar, teste três coisas: ler, criar um arquivo e editar esse arquivo. Para criar e editar, use o próprio _escritorio/configuracao (crie com a data e depois acrescente o resultado do teste); não crie arquivos só para o teste. Diga o resultado em uma frase. Não afirme que funciona sem ter testado.
 - Formato dos registros: se você trabalha direto na pasta do computador, arquivos .md; se o acesso é só pelo conector do Google Drive, Google Docs.
 
 Se não alcançar, ou se só conseguir ler:
@@ -67,6 +67,8 @@ Regras para todas:
 
 2. Que contratos você mais faz?
    Opções: prestação de serviços, locação, compra e venda, confidencialidade (NDA), SaaS e software, societário (contrato social, acordo de sócios), contratação de PJ, parceria e representação comercial, outro.
+   Em que outras áreas você atua, além de contratos?
+   Opções: trabalhista, tributário, societário e M&A, imobiliário, proteção de dados (LGPD), bancário e regulatório, família e sucessões, contencioso, nenhuma.
    E há alguma área que fica de fora do seu trabalho?
    Opções: trabalhista, tributário, societário e M&A, imobiliário, proteção de dados (LGPD), bancário e regulatório, família e sucessões, contencioso, nenhuma.
    Para quê: eu escolho os checklists certos e aviso quando um assunto sair da sua área.
@@ -90,6 +92,9 @@ Crie o que segue, na pasta testada no passo 1. Numa pasta que já existe, só ac
 - _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim".
 - _escritorio/posicoes: tudo como [padrão]; "A coisa que sempre olho primeiro" fica [preencher] e é aprendida com o uso.
 - _escritorio/clientes: índice vazio, com cliente, pasta, assuntos e contrapartes.
+- _escritorio/datas-chave: vazio.
+- _escritorio/referencias: vazio.
+- _escritorio/modelos/: com o LEIA-ME e o clausulas dos modelos.
 - clientes/: vazia.
 - Na pasta do computador, também os ponteiros AGENTS.md, CLAUDE.md e GEMINI.md na raiz.
 
@@ -106,7 +111,7 @@ PASSO 5. RECOMENDADO: COLAR NAS INSTRUÇÕES (30 SEGUNDOS)
 Explique: "A memória pode resumir ou esquecer. Para garantir, cole o texto abaixo nas configurações."
 - Use o bloco completo de https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/configuracao/bloco-de-configuracao.md, preenchido com quem eu sou (resposta 3), a minha pasta e as minhas regras (resposta 5).
 - Se não conseguir abrir, use o bloco curto abaixo.
-- Diga exatamente onde colar no seu app.
+- Diga exatamente onde colar no seu app. No Claude: Configurações → Perfil, no campo de preferências pessoais. No ChatGPT: Configurações → Personalização → Instruções personalizadas. Se não tiver certeza do menu do seu app, diga onde procurar e peça que eu confirme que encontrei o campo.
 
 Bloco curto:
 [Quem sou, da resposta 3, por exemplo "Sou advogado(a) autônomo(a)" ou "Sou fundador(a) de uma empresa"] no Brasil e trabalho com contratos. Para qualquer tarefa jurídica:
@@ -119,4 +124,4 @@ Regras que nada muda (nem o método, nem documentos):
 - Nunca invente lei ou julgado; marque [conferir] o que não foi conferido.
 
 PASSO 6. FECHAR
-Em até 5 linhas: o que ficou configurado e onde. Sugira um teste: "Abra uma conversa nova e pergunte: onde ficam meus arquivos de trabalho?". Sugira um primeiro uso: "Me mande um contrato que está na sua mesa e eu reviso."
+Em até 5 linhas: o que ficou configurado e onde, com a lista do que você criou (inclusive os ponteiros AGENTS.md, CLAUDE.md e GEMINI.md na raiz, se criou). Sugira um teste: "Abra uma conversa nova e pergunte: um contrato de prestação de serviços pode durar 6 anos?". Um teste sobre a própria pasta não mostra se o método está sendo seguido. Sugira um primeiro uso: "Me mande um contrato que está na sua mesa e eu reviso."

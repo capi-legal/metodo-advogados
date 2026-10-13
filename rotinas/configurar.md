@@ -10,6 +10,8 @@
 https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/prompt-de-configuracao.md
 
 - Se o advogado colou o prompt na conversa, siga-o.
+- Se o conector da Capi estiver ligado nesta conversa, chame `capi_configurar` e siga o
+  que ele devolver.
 - Se ele pediu para configurar numa conversa em que você já segue o método, abra o
   endereço acima e siga os passos 0 a 6.
 - Se não conseguir abrir, peça que ele copie o texto da página e cole na conversa.

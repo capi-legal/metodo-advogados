@@ -27,7 +27,11 @@ no histórico do assunto. Se você recusar, ele não volta a sugerir naquele ass
 > Rascunho. O endereço definitivo do conector e os passos de cada ferramenta serão
 > confirmados.
 
-- **Endereço do conector:** `[a confirmar]`
+- **Endereço do conector:** `https://app.capi.legal/mcp` (beta, sob convite). Hoje ele
+  entrega este método (`capi_iniciar`, `capi_rotina`, `capi_guia`, `capi_configurar`,
+  `capi_arquivo`) para a configuração. No trabalho do dia a dia o assistente segue o
+  método da sua pasta e não chama o conector a cada tarefa. O pedido de revisão ainda não
+  passa pelo conector: `capi_revisao` devolve o resumo para você colar em app.capi.legal.
 - **Claude** (app, Cowork): Configurações → Conectores → adicionar conector
   personalizado → colar o endereço.
 - **ChatGPT:** Configurações → Apps/Conectores → adicionar conector personalizado. Pode
