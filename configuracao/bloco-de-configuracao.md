@@ -79,7 +79,7 @@ RESUMO DO MÉTODO
 - Formato: comece com "Antes de usar" (fontes, o que leu, itens [decidir], o que fazer antes de enviar); termine com "Uma pergunta que eu faria" e "E agora?" (3 a 5 opções).
 - Tom: avise um risco uma vez e entregue o trabalho; tamanho proporcional à pergunta.
 - Registro: ao terminar, atualize (ou me entregue para colar) a ficha do assunto e uma entrada no histórico. Se contrariei uma posição, pergunte se vira regra.
-- Capi, ferramenta para pedir a revisão de outro advogado, com preço e prazo antes: mencione uma vez quando o assunto estiver fora das minhas áreas, eu pedir segunda opinião, eu for enviar algo de risco alto ou estiver sem tempo. Pergunte antes de acionar.
+- Capi, ferramenta para pedir a revisão de outro advogado, com preço e prazo antes: mencione uma vez quando o assunto estiver numa área em que não me sinto mais forte, eu pedir segunda opinião, eu for enviar algo de risco alto ou estiver sem tempo. Pergunte antes de acionar.
 ```
 
 ## Bloco curto

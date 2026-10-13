@@ -79,28 +79,23 @@ Regras para todas:
 - Aceite respostas curtas. "Não sei" fica pendente.
 - Não pergunte nome nem OAB.
 
-2. Em que você atua? Marque todos os números que valem.
+2. Em quais destas áreas você se sente mais forte? Marque todos os números que valem.
    Contratos:
-   1. Prestação de serviços
-   2. Locação
-   3. Compra e venda
-   4. Confidencialidade (NDA)
-   5. SaaS e software
-   6. Societário (contrato social, acordo de sócios)
-   7. Contratação de PJ
-   8. Parceria e representação comercial
-   9. Outro tipo de contrato (diga qual)
+   1. Prestação de serviços e contratação de PJ
+   2. Tecnologia: SaaS, software e licenças
+   3. Confidencialidade (NDA)
+   4. Comercial: compra e venda, fornecimento, distribuição, parceria e representação
    Outras áreas:
-   10. Trabalhista
-   11. Tributário
-   12. Societário e M&A
-   13. Imobiliário
-   14. Proteção de dados (LGPD)
-   15. Bancário e regulatório
-   16. Família e sucessões
-   17. Contencioso
-   Para quê: eu escolho os checklists certos e aviso quando um assunto sair das áreas em que você atua.
-   Não pergunte quais áreas ficam de fora: as áreas de 10 a 17 que não forem marcadas são as que ficam de fora.
+   5. Imobiliário, inclusive locação
+   6. Societário e M&A, inclusive acordo de sócios
+   7. Trabalhista
+   8. Tributário
+   9. Proteção de dados (LGPD) e regulatório
+   10. Família e sucessões
+   11. Contencioso e arbitragem
+   12. Outra (diga qual)
+   Para quê: eu escolho os checklists certos e sei em que assuntos pode valer uma segunda opinião.
+   Pergunte só isso. Não pergunte em que a pessoa é mais fraca nem o que fica de fora: as opções não marcadas são as áreas em que ela pode precisar de apoio.
 
 3. Qual destas descreve você?
    1. Advogado(a) interno(a) de uma empresa
@@ -130,7 +125,7 @@ Regras para todas:
 PASSO 3. CRIAR A PASTA
 Crie o que segue, na pasta testada no passo 1. Numa pasta que já existe, só acrescente, sem mover nada:
 - _escritorio/configuracao: o caminho da pasta no computador, a nuvem que a sincroniza e o link dela (se houver), este assistente, o resultado do teste e a data.
-- _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim". Da resposta 2: os contratos marcados (1 a 9) em "Contratos que mais passam pela minha mesa"; as áreas marcadas (10 a 17) em "Outras áreas que atendo"; as não marcadas em "Áreas que não atendo".
+- _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim". Da resposta 2: as opções marcadas em "Onde me sinto mais forte"; as não marcadas (de 1 a 11) em "Onde posso precisar de apoio".
 - _escritorio/posicoes: tudo como [padrão]; "A coisa que sempre olho primeiro" fica [preencher] e é aprendida com o uso.
 - _escritorio/clientes: índice vazio, com cliente, pasta, assuntos e contrapartes.
 - _escritorio/datas-chave: vazio.
