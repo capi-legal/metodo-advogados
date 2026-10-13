@@ -1,6 +1,6 @@
 # Método Capi para trabalho jurídico com IA: instruções para o assistente
 
-**Versão do método:** 0.6 (2026-10-09). Mudanças em `CHANGELOG.md`.
+**Versão do método:** 0.7 (2026-10-12). Mudanças em `CHANGELOG.md`.
 
 Você trabalha como assistente jurídico de um(a) advogado(a) brasileiro(a) com foco em
 **contratos**. Estas instruções valem para qualquer assistente (ChatGPT, Claude, Gemini,
@@ -18,7 +18,7 @@ São três partes, em lugares diferentes:
 | Parte | Onde fica | O que contém |
 |---|---|---|
 | **Método** | Este repositório público. Os demais arquivos estão no mesmo endereço deste `AGENTS.md` | Regras, rotinas, guias e modelos em branco. Igual para todos os advogados |
-| **Pasta do advogado** | Google Drive, OneDrive, Dropbox ou uma pasta no computador | Perfil, posições, clientes, contratos, histórico. Só deste advogado |
+| **Pasta do advogado** | Uma pasta no computador, que pode estar sincronizada com Google Drive, OneDrive ou Dropbox (opcional) | Perfil, posições, clientes, contratos, histórico. Só deste advogado |
 | **Configuração do assistente** | Instruções personalizadas, preferências ou memória do assistente | O endereço do método, onde fica a pasta, as regras que nada muda e um resumo do método (`configuracao/bloco-de-configuracao.md`) |
 
 **Convenção de caminhos:**
@@ -46,9 +46,10 @@ São três partes, em lugares diferentes:
 2. **Veja o que você consegue fazer nela.** Leia `_escritorio/configuracao.md`, que traz o
    formato dos registros e o acesso de cada assistente. Confirme na prática qual destes é o
    seu caso:
-   - **Acesso completo:** você trabalha na pasta do computador, ou o conector permite ler,
-     criar e editar. Siga as rotinas normalmente.
-   - **Só ler e criar:** conector que não edita arquivos existentes. Siga a §10.
+   - **Acesso completo:** você trabalha na pasta do computador. É o modo normal do
+     método. Siga as rotinas normalmente.
+   - **Só ler e criar:** conector de nuvem, na web ou no celular, sobre a mesma pasta
+     sincronizada. Siga a §10.
    - **Só ler, ou nenhum acesso:** peça os arquivos na conversa e entregue o texto pronto
      para o advogado salvar.
 3. **Leia `_escritorio/perfil.md`.** Se ainda houver `[preencher]` nas respostas
@@ -116,10 +117,10 @@ São três partes, em lugares diferentes:
 | `.../<assunto>/03_entregas/` | O que produzimos | Ao entregar |
 | `_legado/` | Opcional: material anterior ao método, só leitura | Só ao reabrir um assunto antigo |
 
-Os registros (`ficha`, `historico`, `cliente` e os índices) são arquivos `.md` ou Google
-Docs, conforme `_escritorio/configuracao.md`. **No formato Google Docs, onde o método diz
-`ficha.md`, entenda o documento chamado `ficha`, e assim por diante.** Detalhes em
-`estrutura/LEIA-ME.md`.
+Os registros (`ficha`, `historico`, `cliente` e os índices) são arquivos `.md`. Pastas
+configuradas antes da versão 0.7 podem ter registros em Google Docs: onde o método diz
+`ficha.md`, entenda o documento chamado `ficha`, e ofereça converter uma vez
+(`estrutura/LEIA-ME.md`).
 
 A pasta do assunto se chama `AAAA-MM_assunto-curto`, com um assunto neutro. Assuntos
 criados antes da versão 0.5 podem ter o nome antigo e subpastas sem número (`versoes/`,
@@ -285,13 +286,22 @@ Não pergunte "quer salvar algo?" de forma vaga. Se não houver nada, não inven
 
 ## 10. Quando você não pode editar arquivos existentes
 
-Pelo conector de nuvem ou numa conversa na web, talvez você só consiga ler, ou criar
-arquivos novos.
+Pelo conector de nuvem, na web ou no celular, talvez você só consiga ler, ou criar
+arquivos de texto novos. O trabalho completo é no computador (§0); o conector é um
+acesso extra.
 
 - **Se puder criar arquivos:** grave o registro como arquivo novo no assunto:
   `historico-AAAA-MM-DD-assunto` ou `ficha-AAAA-MM-DD`. Quem tiver acesso completo depois
   consolida no arquivo principal e mantém os avulsos.
 - **Se não puder criar arquivos:** entregue o texto pronto e diga onde salvar.
+- **Contratos e outros arquivos binários** (`.docx`, `.pdf`): pelo conector, em geral
+  você não consegue salvá-los na pasta. Diga isso **no início da tarefa**, não no fim.
+  - Contrato que chegou pela conversa ou por e-mail: peça ao advogado que o salve primeiro
+    em `02_versoes/` (ou `01_documentos/`), com o nome no padrão, e leia de lá. Assim a v01
+    é uma cópia exata.
+  - O que você produzir em `.docx`: entregue o arquivo na conversa com o caminho e o nome
+    exatos onde ele deve ser salvo. Nunca tente montar o `.docx` como texto dentro da
+    chamada do conector.
 - Diga claramente o que não conseguiu registrar.
 
 ## 11. Idioma e estilo

@@ -2,15 +2,14 @@
 
 Arquivos em branco que o assistente usa para criar a pasta de trabalho do advogado
 (`rotinas/configurar.md`), cada cliente e cada assunto (`rotinas/novo-cliente.md`). A pasta
-pode ficar no Google Drive, no OneDrive, no Dropbox ou no computador. O nome é escolhido
-pelo advogado, por exemplo "Escritório IA".
+fica **no computador** e pode estar sincronizada com o Google Drive, o OneDrive ou o
+Dropbox. O nome é escolhido pelo advogado, por exemplo "Escritório IA".
 
 ## Como fica a pasta
 
 ```
 <Pasta escolhida pelo advogado>/
-  AGENTS.md, CLAUDE.md, GEMINI.md   ponteiros para o método (só quando um assistente de
-                                    computador trabalha na pasta; ver raiz/)
+  AGENTS.md, CLAUDE.md, GEMINI.md   ponteiros para o método (ver raiz/)
   _escritorio/
     configuracao      onde ficam as coisas, formato, acesso de cada assistente
     perfil            quem é o advogado, como escreve e entrega
@@ -86,31 +85,33 @@ Duas opções. O advogado escolhe na configuração ou no primeiro cliente:
    - Antes de qualquer renomeação em lote: cópia de segurança. Duplicados não são
      apagados sem conferir.
 
-## Formato dos registros: `.md` ou Google Docs
+## Formato dos arquivos
 
-Os registros são `configuracao`, `perfil`, `posicoes`, `clientes`, `datas-chave`,
-`referencias`, `cliente`, `ficha` e `historico`. Eles têm **um formato por pasta**,
-definido na configuração:
+**Registros** (`configuracao`, `perfil`, `posicoes`, `clientes`, `datas-chave`,
+`referencias`, `cliente`, `ficha` e `historico`): sempre **`.md`**.
+- Texto simples: qualquer assistente lê e edita direto na pasta, e é barato ler inteiro.
+- O Google Drive, o OneDrive e o Dropbox guardam e sincronizam `.md` como qualquer
+  arquivo, e os conectores de nuvem leem `.md`.
 
-| Situação do advogado | Formato | Por quê |
-|---|---|---|
-| Usa um assistente **no computador** sobre a pasta (Claude Cowork, ChatGPT para computador, Codex) | **`.md`** | Google Docs nativo aparece no computador só como atalho; o assistente não consegue ler nem editar |
-| Usa **só** assistentes na web ou no celular, com a pasta no **Google Drive** | **Google Docs** | Os conectores de Drive leem bem e, em alguns assistentes, editam Google Docs. Para o advogado, parece um documento comum |
-| Usa os dois sobre a mesma pasta | **`.md`** | O assistente do computador precisa ler tudo; na web, os `.md` são lidos pelo conector |
-| Pasta no OneDrive, Dropbox ou só no computador | **`.md`** | |
+**Contratos e entregas:** o que o advogado usa no dia a dia, normalmente `.docx` ou `.pdf`.
+O assistente do computador grava o `.docx` exato na pasta, com controle de alterações, e a
+sincronização leva para a nuvem.
 
-Os modelos desta pasta estão em `.md`. No formato Google Docs, o assistente cria um
-documento com o mesmo nome (sem extensão) e o mesmo conteúdo.
+**Não use Google Docs nativo** (nem para registros, nem para contratos). No computador, o
+app do Google Drive mostra esses arquivos só como atalhos (`.gdoc`), e o assistente não
+consegue ler nem editar.
 
-**Contratos e entregas** seguem o que o advogado usa no dia a dia, normalmente `.docx` ou
-`.pdf`. Quem trabalha com assistente no computador não deve usar Google Docs nativo para
-contratos: o assistente não consegue lê-los.
+**Pastas configuradas antes da versão 0.7 com registros em Google Docs.** O assistente
+continua usando o que existe e oferece converter: lê cada registro pelo conector do Google
+Drive (no computador, o atalho `.gdoc` não tem o conteúdo), grava o `.md` ao lado e deixa o
+Google Doc intacto. Só depois do OK do advogado o Google Doc
+vai para `_legado/`, e nada é apagado.
 
 ## Arquivos desta pasta
 
 | Arquivo | Vira |
 |---|---|
-| `raiz/AGENTS.md`, `raiz/CLAUDE.md`, `raiz/GEMINI.md` | Ponteiros na raiz da pasta do advogado (só no modo computador) |
+| `raiz/AGENTS.md`, `raiz/CLAUDE.md`, `raiz/GEMINI.md` | Ponteiros na raiz da pasta do advogado |
 | `_escritorio/*` | `_escritorio/` do advogado |
 | `cliente/cliente.md` | `clientes/<cliente>/cliente` |
 | `assunto/ficha.md`, `assunto/historico.md` | `clientes/<cliente>/<assunto>/ficha` e `historico` |

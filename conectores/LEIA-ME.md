@@ -8,32 +8,27 @@ conforme a ferramenta. O assistente descobre na hora quais estão disponíveis.
 
 | Capacidade | Exemplos | Para que serve aqui | Cuidados |
 |---|---|---|---|
-| **Armazenamento** | Google Drive, OneDrive, SharePoint, Dropbox | Abrir os contratos onde já estão | Ver abaixo: sincronizar é melhor que conectar |
+| **Armazenamento** | Google Drive, OneDrive, SharePoint, Dropbox | Acesso extra à pasta pela web e pelo celular | Ver abaixo: a pasta fica no computador; o conector é complemento |
 | **E-mail** | Gmail, Outlook | Achar a última versão enviada pela contraparte; trazer o contexto de um cliente | Buscar **só** pelo cliente ou assunto ativo. Nunca varrer a caixa inteira. Não enviar nada sem confirmação |
 | **Assinatura eletrônica** | Clicksign, D4Sign, ZapSign, DocuSign, gov.br | Status da assinatura; preparar envelope | **Nunca** enviar para assinatura sem um "sim" para aquele envio. Antes, conferir partes, poderes e anexos |
 | **Agenda** | Google Agenda, Outlook | Lembretes das datas de `datas-chave.md` | Criar evento só com confirmação |
 | **Capi** | Conector Capi | Pedir revisão de outro advogado | Ver `capi.md` |
 
-## Drive e OneDrive: sincronizar é melhor que conectar
+## Armazenamento: a pasta fica no computador
 
-**Melhor opção: o app de sincronização** (Google Drive para computador, ou OneDrive). A
-pasta aparece no computador e qualquer assistente lê e grava normalmente. Para funcionar
-bem:
+A pasta de trabalho fica **no computador**, aberta no assistente. Para tê-la também na
+nuvem, use o app de sincronização (Google Drive para computador, OneDrive ou Dropbox) e
+deixe os arquivos baixados. Detalhes e cuidados em `configuracao/ferramentas.md`, seção 3.
 
-- Os arquivos precisam estar **baixados no computador**:
-  - Google Drive: modo "espelhar", ou "disponível off-line" na pasta;
-  - OneDrive: "Sempre manter neste dispositivo".
-- Contratos em **.docx ou .pdf**. Google Docs nativo aparece no computador só como um
-  atalho, e o assistente não consegue ler o conteúdo.
-- Abra no assistente **a pasta do escritório**, não a raiz do Drive.
+O **conector de nuvem** é um acesso extra à mesma pasta, pela web ou pelo celular:
+- **lê** bem, inclusive `.docx` e `.pdf`;
+- costuma só **criar** arquivos de texto novos, sem editar os que existem;
+- em geral **não salva `.docx`**: o arquivo precisaria ser enviado como texto dentro da
+  chamada, e um caractere errado corrompe o documento.
 
-**Conector de nuvem (sem sincronizar)**, usado pelas versões web dos assistentes:
-
-- costuma **ler** e **criar** arquivos;
-- muitas vezes **não edita** arquivos existentes.
-
-Nesse caso, o assistente segue o modo sem edição (`AGENTS.md` §10). O conector do
-Microsoft 365 costuma exigir conta corporativa e autorização do administrador.
+Por isso, pelo conector o assistente segue `AGENTS.md` §10. O conector do Microsoft 365
+exige conta de trabalho, e a gravação depende do administrador. OneDrive pessoal não tem
+conector útil.
 
 ## Sem conector
 
