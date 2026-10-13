@@ -18,9 +18,12 @@ https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/prompt-de-con
 
 O prompt cuida de:
 - checar se já existe configuração;
-- conferir se a conversa está num modo com pasta de trabalho ou conector, e explicar
-  antes de perguntar;
-- perguntar onde ficam os arquivos, conectar e testar a pasta. **Sem acesso testado, a
+- conferir se a conversa está no computador, num modo com pasta de trabalho, e explicar
+  antes de perguntar. **Pela web ou pelo celular, a configuração não começa:** o
+  assistente diz qual app abrir;
+- perguntar qual pasta do computador (uma pasta comum basta; a sincronização com Google
+  Drive, OneDrive ou Dropbox é mencionada uma vez, sem insistir), conectar e testar a
+  pasta. Se ela for sincronizada, explicar como deixá-la baixada. **Sem acesso testado, a
   configuração para:** o assistente explica os cliques do app e recomenda reabrir a
   conversa no lugar certo. Nada é preparado para copiar depois;
 - fazer mais 4 perguntas, com todas as opções e o "para quê": contratos e áreas fora do
@@ -42,7 +45,9 @@ O prompt cuida de:
 4. Ofereça copiar os modelos, sem dados de clientes, para `_escritorio/modelos/`.
 
 **Ligar outro assistente à mesma pasta.** Não refaça as perguntas.
-1. Confira o modo da conversa, conecte e teste a pasta (passos 0 e 1 do prompt).
+1. Confira o modo da conversa, conecte e teste a pasta (passos 0 e 1 do prompt). Um
+   assistente na web ou no celular só se liga pelo conector da nuvem que sincroniza a
+   pasta, como acesso extra (`AGENTS.md` §10).
 2. Guarde a nota na memória (passo 4).
 3. Ofereça o bloco (passo 5).
 4. Acrescente o assistente em `_escritorio/configuracao`.

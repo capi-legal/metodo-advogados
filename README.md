@@ -12,19 +12,20 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
 | Parte | Onde fica | O que é |
 |---|---|---|
 | **O método** | Este repositório | Regras, rotinas e guias de direito brasileiro. Igual para todos e atualizado pela Capi |
-| **A sua pasta** | Google Drive, OneDrive, Dropbox ou o seu computador | Seu perfil, suas posições, seus clientes e contratos. Só sua |
+| **A sua pasta** | Uma pasta no seu computador (se quiser, sincronizada com Google Drive, OneDrive ou Dropbox) | Seu perfil, suas posições, seus clientes e contratos. Só sua |
 | **A configuração do assistente** | Instruções personalizadas do ChatGPT, Claude ou Gemini | Um texto curto, colado uma vez, que diz onde está o método e onde está a sua pasta |
 
 **O método nunca guarda dados seus nem de clientes.** Tudo isso fica na sua pasta.
 
 ## Para começar
 
-1. Abra o seu assistente. Para a experiência completa, use um assistente no computador:
-   Claude (Cowork), o app do ChatGPT para computador ou Codex, sobre uma pasta sincronizada.
-   Passo a passo em `configuracao/ferramentas.md`.
+1. Abra o seu assistente **no computador**: o app do Claude (Cowork), o app do ChatGPT
+   (Work), Codex, Claude Code ou Gemini CLI, sobre uma pasta do computador. Uma pasta comum
+   basta; se ela estiver sincronizada com Google Drive, OneDrive ou Dropbox, você também a
+   alcança pela web e pelo celular. Passo a passo em `configuracao/ferramentas.md`.
 2. Copie o texto do **[prompt de configuração](prompt-de-configuracao.md)** e cole numa
-   conversa nova. Antes de perguntar qualquer coisa, o assistente confere se está num modo
-   que alcança a sua pasta e explica o que vai fazer, o que vai acessar e o que fica
+   conversa nova. Antes de perguntar qualquer coisa, o assistente confere se está no
+   computador, num modo que alcança a sua pasta e explica o que vai fazer, o que vai acessar e o que fica
    privado. Se não estiver, ele diz onde clicar e pede para reabrir a conversa no lugar
    certo.
 3. Responda às 5 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
@@ -84,7 +85,7 @@ rotinas/         O passo a passo de cada tarefa
 guias/           Pontos de atenção do direito brasileiro por tipo de contrato
 modelos/         Modelos sugeridos: termo de uso de IA, cláusulas
 estrutura/       Arquivos em branco para montar a sua pasta, clientes e assuntos
-conectores/      Integrações: Drive, OneDrive, e-mail, assinatura, Capi
+conectores/      Integrações: nuvem, e-mail, assinatura, Capi
 configuracao/    Como configurar cada assistente e o bloco de configuração
 CHANGELOG.md     O que mudou em cada versão do método
 ```

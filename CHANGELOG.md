@@ -3,16 +3,44 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
-## Próxima versão (proposta, ainda não publicada)
+## 0.7 · 2026-10-12
 
-Ajustes do teste da configuração pelo conector da Capi (Claude Desktop, 2026-10-09).
+A pasta de trabalho fica no computador, sempre. Mudança feita depois de um teste com o
+conector do Google Drive: os registros funcionaram, mas o contrato recebido (v01) e o
+redline em `.docx` não puderam ser salvos na pasta.
+
+- **Pasta no computador obrigatória.** A configuração só acontece num assistente no
+  computador, com a pasta aberta (Claude, ChatGPT para computador, Codex, Claude Code,
+  Gemini CLI). Pela web ou pelo celular, o assistente diz qual app abrir e para.
+- **Nuvem opcional.** A pergunta 1 passa a ser "em qual pasta do computador vamos
+  trabalhar?". Uma pasta comum basta. A sincronização com Google Drive, OneDrive ou
+  Dropbox é mencionada uma vez, sem insistir, porque dá acesso pela web e pelo celular.
+  Pasta já sincronizada: o assistente explica como deixar os arquivos baixados
+  (`configuracao/ferramentas.md`).
+- **Conector vira acesso extra.** Na web ou no celular, sobre a mesma pasta, o assistente
+  lê tudo e registra em arquivos novos com data (`AGENTS.md` §10). Um assistente da web
+  pode ser ligado a uma pasta já configurada.
+- **Arquivos `.docx` pelo conector:** o assistente avisa no início da tarefa que não
+  consegue salvá-los, pede ao advogado que salve o contrato recebido em `02_versoes/`
+  antes de ler e entrega o que produzir com o caminho exato (`AGENTS.md` §10).
+- **Registros sempre em `.md`.** Google Docs deixa de ser formato de registro e não deve
+  ser usado para contratos. Pastas antigas em Google Docs continuam funcionando, e o
+  assistente oferece converter sem apagar nada (`estrutura/LEIA-ME.md`).
+- **`_escritorio/configuracao`:** caminho no computador, nuvem que sincroniza, se os
+  arquivos estão baixados e link da pasta na nuvem.
+- Mantido da 0.6.1 (não publicada): a pergunta 1 mostra de uma vez o "para quê", as
+  opções e como dar acesso no app em uso; se a pessoa diz que já adicionou a pasta, o
+  assistente confere.
+
+Ajustes do teste da configuração pelo conector da Capi (Claude Desktop, 2026-10-09):
 
 - **Sem arquivo de teste.** O teste de criar e editar usa o próprio
   `_escritorio/configuracao`; antes ficava um `teste-acesso` na pasta.
 - **A estrutura completa.** A configuração cria também `datas-chave`, `referencias` e
   `modelos/`, que o `AGENTS.md` já usa.
-- **Outras áreas.** A pergunta 2 pergunta em que outras áreas a pessoa atua; antes
-  "Outras áreas que atendo" ficava `[preencher]` no `perfil`.
+- **Outras áreas.** A pergunta 2 continua igual (contratos e áreas fora do trabalho).
+  "Outras áreas que atendo", no `perfil`, fica `[preencher]` e é aprendida com o uso, para
+  manter a configuração curta.
 - **Onde colar o bloco:** o caminho no Claude e no ChatGPT.
 - **Fechamento:** lista o que foi criado, inclusive os ponteiros na raiz, e sugere como
   teste uma pergunta sobre contrato. "Onde ficam meus arquivos?" é respondida pelo perfil e

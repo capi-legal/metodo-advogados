@@ -29,7 +29,7 @@ Não abra as pastas desses clientes para investigar.
    minúsculas, sem acento e com hífens. Se `_escritorio/configuracao` indicar outra pasta
    de clientes, use-a.
 2. Crie dentro dela o registro `cliente` a partir de `estrutura/cliente/cliente.md`, no
-   método. Use o formato de `_escritorio/configuracao` (`.md` ou Google Docs). Preencha o
+   método. Em `.md` (pastas antigas em Google Docs: `estrutura/LEIA-ME.md`). Preencha o
    essencial. Pergunte só o que falta:
    - nome ou razão social;
    - CPF ou CNPJ;
@@ -98,7 +98,7 @@ exemplo: "Quer que eu revise a v01 agora?".
 
 ## Organizar um cliente que já existe (pastas antigas)
 
-Use quando o advogado já tem uma pasta do cliente no Drive ou OneDrive, com arquivos
+Use quando o advogado já tem uma pasta do cliente, no computador ou na nuvem, com arquivos
 soltos. Veja as duas opções (adaptar no lugar ou data de corte com `_legado/`) em
 `estrutura/LEIA-ME.md`. Se o advogado ainda não escolheu, pergunte uma vez.
 
