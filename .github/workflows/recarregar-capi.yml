@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - env:
-          GH_TOKEN: ${{ secrets.CAPI_API_SYNC_TOKEN }}
+          GH_TOKEN: ${{ secrets.CAPI_API_DISPATCH_TOKEN }}
         run: gh api repos/capi-legal/capi-api/dispatches -f event_type=metodo-updated -f "client_payload[sha]=$GITHUB_SHA"
