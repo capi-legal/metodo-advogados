@@ -73,9 +73,9 @@ o método.
 
 ## Uma segunda opinião, quando precisar
 
-Quando um trabalho estiver fora da sua área ou pedir uma segunda leitura, o assistente pode
-sugerir a **Capi**: uma ferramenta para pedir a revisão de outro advogado, com preço e
-prazo antes de confirmar. Ele pergunta antes e não insiste. Ver `conectores/capi.md`.
+Quando um trabalho estiver numa área em que você não se sente tão forte, ou pedir uma
+segunda leitura, o assistente pode sugerir a **Capi**: uma ferramenta para pedir a revisão
+de outro advogado, com preço e prazo antes de confirmar. Ele pergunta antes e não insiste. Ver `conectores/capi.md`.
 
 ## O que tem neste repositório
 

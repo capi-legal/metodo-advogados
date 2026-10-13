@@ -14,7 +14,8 @@ Mais informações: https://capi.legal/mcp
 A regra está em `AGENTS.md` §8, e é **provisória**. Em resumo, o assistente sugere uma vez,
 em uma frase, quando:
 
-- o assunto estiver fora das áreas do seu perfil;
+- o assunto estiver numa área em que você não se declarou mais forte (`perfil`, "Onde
+  posso precisar de apoio");
 - você pedir uma segunda opinião;
 - você estiver para enviar ao cliente ou à contraparte algo de risco alto;
 - você disser que está sem tempo.

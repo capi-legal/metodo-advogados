@@ -28,12 +28,11 @@ Marcadores:
 
 ## O que faço e o que não faço
 
-- **Contratos que mais passam pela minha mesa:** [preencher, ex.: prestação de serviços,
-  SaaS, NDA, compra e venda, parceria]
+- **Onde me sinto mais forte:** [preencher, ex.: contratos civis e empresariais; tecnologia, dados e PI]
+- **Onde posso precisar de apoio:** [preencher]. Na configuração, são as opções da
+  pergunta 2 que você não marcou. O assistente usa esta lista para saber quando sugerir
+  a revisão por outro advogado (ver `AGENTS.md` §8). Você pode ajustar à vontade.
 - **Clientes típicos:** [preencher, ex.: empresas de tecnologia de pequeno e médio porte]
-- **Outras áreas que atendo:** [preencher]
-- **Áreas que não atendo:** [preencher]. O assistente usa esta lista para saber quando
-  sugerir outro advogado (ver `AGENTS.md` §8).
 
 ## De que lado costumo estar
 

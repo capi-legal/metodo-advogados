@@ -26,8 +26,9 @@ O prompt cuida de:
   pasta. Se ela for sincronizada, explicar como deixá-la baixada. **Sem acesso testado, a
   configuração para:** o assistente explica os cliques do app e recomenda reabrir a
   conversa no lugar certo. Nada é preparado para copiar depois;
-- fazer mais 4 perguntas, com todas as opções e o "para quê": contratos e áreas fora do
-  trabalho, quem é o usuário, canal e tom, e o que ele repete a cada conversa;
+- fazer mais 4 perguntas, com todas as opções numeradas e o "para quê": as áreas
+  em que se sente mais forte (as não marcadas viram "onde posso precisar de apoio"), quem é o usuário,
+  canal e tom, e o que ele repete a cada conversa;
 - criar a estrutura;
 - guardar uma nota curta na memória;
 - oferecer o bloco para as instruções.

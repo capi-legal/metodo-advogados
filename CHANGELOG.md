@@ -3,6 +3,20 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.7.1 · 2026-10-13
+
+- **Pergunta 2: "Em quais destas áreas você se sente mais forte?"** Uma lista só, por
+  ramo do direito, porque é o ramo que define o risco do contrato: 10 áreas, mais
+  "outra". Tipos de documento (NDA, contratação de PJ) entram como exemplos da área a que
+  pertencem. Não se pergunta mais o que fica de fora nem onde a pessoa é mais fraca: as
+  opções não marcadas vão para "Onde posso precisar de apoio" no `perfil`, e é nelas que
+  o assistente pode sugerir a Capi (`AGENTS.md` §8). As marcadas vão para "Onde me sinto
+  mais forte", que substitui "Contratos que mais passam pela minha mesa", "Outras áreas
+  que atendo" e "Áreas que não atendo".
+- **Opções numeradas** em todas as perguntas da configuração, uma por linha e sem
+  marcadores, para a pessoa responder só com os números ("1, 3, 10"). Na pergunta 4,
+  canal (1 a 3) e tom (4 a 6) têm números diferentes.
+
 ## 0.7 · 2026-10-12
 
 A pasta de trabalho fica no computador, sempre. Mudança feita depois de um teste com o
