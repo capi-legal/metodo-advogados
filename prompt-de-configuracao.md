@@ -80,20 +80,17 @@ Regras para todas:
 - Não pergunte nome nem OAB.
 
 2. Em quais destas áreas você se sente mais forte? Marque todos os números que valem.
-   Contratos:
-   1. Prestação de serviços e contratação de PJ
-   2. Tecnologia: SaaS, software e licenças
-   3. Confidencialidade (NDA)
-   4. Comercial: compra e venda, fornecimento, distribuição, parceria e representação
-   Outras áreas:
-   5. Imobiliário, inclusive locação
-   6. Societário e M&A, inclusive acordo de sócios
-   7. Trabalhista
-   8. Tributário
-   9. Proteção de dados (LGPD) e regulatório
-   10. Família e sucessões
-   11. Contencioso e arbitragem
-   12. Outra (diga qual)
+   1. Contratos civis e empresariais: prestação de serviços entre empresas, compra e venda, fornecimento, distribuição, representação, parceria, confidencialidade
+   2. Tecnologia, dados e propriedade intelectual: SaaS, software, licenças, marcas, LGPD
+   3. Societário e M&A: contrato social, acordo de sócios, investimento, compra e venda de empresas
+   4. Trabalhista: contrato de trabalho, contratação de PJ, terceirização
+   5. Imobiliário: locação, compra e venda de imóveis
+   6. Consumidor: contratos e termos com o consumidor final
+   7. Tributário
+   8. Regulatório: bancário, saúde, energia e outros setores regulados
+   9. Família e sucessões
+   10. Contencioso e arbitragem
+   11. Outra (diga qual)
    Para quê: eu escolho os checklists certos e sei em que assuntos pode valer uma segunda opinião.
    Pergunte só isso. Não pergunte em que a pessoa é mais fraca nem o que fica de fora: as opções não marcadas são as áreas em que ela pode precisar de apoio.
 
@@ -125,7 +122,7 @@ Regras para todas:
 PASSO 3. CRIAR A PASTA
 Crie o que segue, na pasta testada no passo 1. Numa pasta que já existe, só acrescente, sem mover nada:
 - _escritorio/configuracao: o caminho da pasta no computador, a nuvem que a sincroniza e o link dela (se houver), este assistente, o resultado do teste e a data.
-- _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim". Da resposta 2: as opções marcadas em "Onde me sinto mais forte"; as não marcadas (de 1 a 11) em "Onde posso precisar de apoio".
+- _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim". Da resposta 2: as opções marcadas em "Onde me sinto mais forte"; as não marcadas (de 1 a 10) em "Onde posso precisar de apoio".
 - _escritorio/posicoes: tudo como [padrão]; "A coisa que sempre olho primeiro" fica [preencher] e é aprendida com o uso.
 - _escritorio/clientes: índice vazio, com cliente, pasta, assuntos e contrapartes.
 - _escritorio/datas-chave: vazio.
