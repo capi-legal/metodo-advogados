@@ -3,6 +3,43 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.8 · 2026-10-13
+
+Ajustes do teste da configuração ao vivo (2026-10-13).
+
+- **Sem a pergunta de canal e tom.** A antiga pergunta 4 saiu inteira. O campo "Tom" saiu
+  do `perfil`; o canal com o cliente fica `[padrão]` e é aprendido com o uso. No bloco de
+  configuração, a linha "Tom" do resumo do método, que falava da postura do assistente,
+  passou a se chamar "Postura".
+- **Formatação dos documentos.** Nova pergunta 4: como os contratos devem ficar. O melhor
+  caminho é um documento de que o advogado gosta: o assistente lê só a forma, escreve as
+  regras em texto simples (fonte, tamanho, numeração, estrutura, como um quadro de termos
+  no início), mostra uma página de amostra e grava as regras depois do "sim". O conteúdo
+  não vai para `_escritorio`. Uma cópia do arquivo é opcional e só completa o que o texto
+  não descreve (logo, quadros). Sem documento, há 3 opções prontas
+  (Clássico, Moderno e Compacto). A resposta vai para o novo `_escritorio/formatacao.md`,
+  e todo documento criado segue esse arquivo (`AGENTS.md` §7). O que se registra e como
+  aplicar está em `modelos/formatacao.md`. Mesmo sem nada registrado: papel A4 e números das
+  cláusulas escritos no texto, que não somem em nenhum visualizador.
+- **Pergunta 5: "O que a Capi deve sempre saber sobre você para te atender melhor?"**
+  Substitui "o que você repete a cada conversa", com exemplos de formatação, idioma,
+  tarefas que se repetem e regras para outros conectores. Dá para pular: depois, "adicione
+  à minha memória da Capi: …" grava em `_escritorio/perfil`, "Sempre que trabalhar para
+  mim", e nunca na memória do assistente (`AGENTS.md` §9).
+- **Redação com pedido curto.** Antes de redigir, o assistente confere o básico: partes,
+  lei aplicável e foro, idioma e prazo. Se faltar, ele pergunta se o advogado prefere
+  responder agora ou ver primeiro um esqueleto. Respondendo agora, as perguntas vêm em
+  rodadas de no máximo 3 por mensagem (o limite de antes continua), até a minuta poder
+  sair sem lacunas. No esqueleto, tudo o que falta abre a entrega, em "Em aberto", como
+  perguntas. Se o pedido já traz o básico, nada é perguntado de novo.
+- **Texto para as configurações do app, explicado.** O passo 5 da configuração passa a
+  ser opcional e é explicado em linguagem simples antes do bloco: o que ele faz, que vale
+  também em conversas não jurídicas e como tirar, o que acontece sem ele (a Capi funciona
+  com a pasta aberta na conversa), onde colar, em passos numerados, e que dá para decidir
+  depois. O mesmo texto está no início de `configuracao/bloco-de-configuracao.md`. Caminho
+  no Claude: Configurações → "Instruções para o Claude".
+- Configuração: continuam 5 perguntas no total (a pasta e mais 4), cerca de 3 minutos.
+
 ## 0.7.1 · 2026-10-13
 
 - **Pergunta 2: "Em quais destas áreas você se sente mais forte?"** Uma lista só, por

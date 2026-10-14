@@ -13,6 +13,7 @@ Dropbox. O nome é escolhido pelo advogado, por exemplo "Escritório IA".
   _escritorio/
     configuracao      onde ficam as coisas, formato, acesso de cada assistente
     perfil            quem é o advogado, como escreve e entrega
+    formatacao        como os documentos devem ficar: fonte, numeração, assinaturas
     posicoes          posições em cada cláusula, por lado
     clientes          índice de clientes e contrapartes (checagem de conflito)
     datas-chave       datas dos contratos
@@ -87,7 +88,7 @@ Duas opções. O advogado escolhe na configuração ou no primeiro cliente:
 
 ## Formato dos arquivos
 
-**Registros** (`configuracao`, `perfil`, `posicoes`, `clientes`, `datas-chave`,
+**Registros** (`configuracao`, `perfil`, `formatacao`, `posicoes`, `clientes`, `datas-chave`,
 `referencias`, `cliente`, `ficha` e `historico`): sempre **`.md`**.
 - Texto simples: qualquer assistente lê e edita direto na pasta, e é barato ler inteiro.
 - O Google Drive, o OneDrive e o Dropbox guardam e sincronizam `.md` como qualquer

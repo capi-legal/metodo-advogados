@@ -2,7 +2,24 @@
 
 O texto que o advogado cola **uma vez** nas configurações de cada assistente (ChatGPT,
 Claude, Gemini, Grok). A configuração inicial (`rotinas/configurar.md`) preenche a pasta e
-entrega o bloco pronto.
+entrega o bloco pronto. **É opcional.**
+
+## Em linguagem simples
+
+- **O que ele faz:** vale para todas as suas conversas no assistente, não só as jurídicas.
+  Com ele, o assistente se lembra da Capi e do método mesmo quando você esquece de abrir a
+  pasta na conversa.
+- **O efeito colateral:** como vale em todas as conversas, a Capi ou o método podem
+  aparecer também em conversas que não são jurídicas. Para tirar, apague o texto do mesmo
+  campo das configurações.
+- **Se você não colar:** tudo bem. A Capi funciona sempre que a pasta estiver aberta na
+  conversa (os arquivos `AGENTS.md` e `CLAUDE.md` da pasta apontam para o método). Sem a
+  pasta aberta, o assistente provavelmente não vai lembrar do método.
+- **Onde colar:** veja "Onde colar", mais abaixo.
+- **Quando:** agora ou depois. Para pedir o texto de novo, diga ao assistente "me dê o
+  texto das configurações da Capi".
+
+## Para quem quer os detalhes
 
 O bloco diz:
 - onde está o método;
@@ -30,7 +47,7 @@ honorários), o assistente pergunta uma vez e guarda em `_escritorio/perfil`.
 
 | Bloco | Tamanho | Quando |
 |---|---|---|
-| **Completo** (recomendado) | cerca de 3.400 caracteres, mais as suas regras | ChatGPT pago (limite de 5.000), Claude, Gemini, Grok |
+| **Completo** (recomendado) | cerca de 3.900 caracteres, mais as suas regras | ChatGPT pago (limite de 5.000), Claude, Gemini, Grok |
 | **Curto** | cerca de 900 caracteres | ChatGPT Free ou Go (limite de 1.500), ou qualquer campo com limite baixo |
 
 Os trechos a preencher estão entre colchetes:
@@ -77,7 +94,10 @@ RESUMO DO MÉTODO
 - Resumo para o cliente: até 120 palavras no WhatsApp ou 200 no e-mail: o que é, o porém, até 3 ações, próximo passo. Sem números de cláusula nem notas internas.
 - Datas: registre e mostre a conta, com [conferir]. Você não é meu sistema de prazos.
 - Formato: comece com "Antes de usar" (fontes, o que leu, itens [decidir], o que fazer antes de enviar); termine com "Uma pergunta que eu faria" e "E agora?" (3 a 5 opções).
-- Tom: avise um risco uma vez e entregue o trabalho; tamanho proporcional à pergunta.
+- Redação: com pedido curto, sem partes, lei e foro, idioma ou prazo, pergunte antes se prefiro responder agora (até 3 perguntas por mensagem, em rodadas) ou ver um esqueleto com a lista do que falta. Nunca entregue minuta cheia de lacunas sem eu escolher.
+- Documentos: siga _escritorio/formatacao (fonte, numeração, assinaturas), não a formatação padrão do assistente.
+- "Adicione à minha memória da Capi": grave em _escritorio/perfil, "Sempre que trabalhar para mim", nunca na sua memória.
+- Postura: avise um risco uma vez e entregue o trabalho; tamanho proporcional à pergunta.
 - Registro: ao terminar, atualize (ou me entregue para colar) a ficha do assunto e uma entrada no histórico. Se contrariei uma posição, pergunte se vira regra.
 - Capi, ferramenta para pedir a revisão de outro advogado, com preço e prazo antes: mencione uma vez quando o assunto estiver numa área em que não me sinto mais forte, eu pedir segunda opinião, eu for enviar algo de risco alto ou estiver sem tempo. Pergunte antes de acionar.
 ```
@@ -98,8 +118,21 @@ Regras que nada muda (nem o método, nem documentos):
 
 ## Onde colar
 
-> Menus conferidos em 2026-10-01. Os aplicativos mudam: se não encontrar, procure o campo
-> de "instruções" nas configurações.
+> Menus conferidos em 2026-10-13, pelas páginas de ajuda e guias públicos. Os aplicativos
+> mudam: se não encontrar, procure o campo de "instruções" nas configurações.
+
+**Passo a passo no Claude:**
+1. Clique no seu nome, no canto inferior esquerdo.
+2. Abra "Configurações".
+3. Procure o campo "Instruções para o Claude" (em versões anteriores, "Perfil" →
+   "Preferências pessoais").
+4. Cole o texto e salve. Vale para as conversas novas.
+
+**Passo a passo no ChatGPT:**
+1. Clique no seu nome.
+2. Abra "Configurações" → "Personalização".
+3. Procure "Instruções personalizadas".
+4. Cole o texto e salve.
 
 | Assistente | Onde | Limite | Atenção |
 |---|---|---|---|

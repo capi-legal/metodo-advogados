@@ -28,8 +28,8 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
    computador, num modo que alcança a sua pasta e explica o que vai fazer, o que vai acessar e o que fica
    privado. Se não estiver, ele diz onde clicar e pede para reabrir a conversa no lugar
    certo.
-3. Responda às 5 perguntas: onde ficam seus arquivos e como você trabalha. Leva uns
-   3 minutos. O assistente cria a sua pasta de trabalho e guarda na memória dele onde ela
+3. Responda às 5 perguntas: onde ficam seus arquivos, como você trabalha e como seus
+   contratos devem ficar. Leva uns 3 minutos. O assistente cria a sua pasta de trabalho e guarda na memória dele onde ela
    fica.
 4. Recomendado: cole o **bloco de configuração** que o assistente entregar nas
    configurações dele. Os
