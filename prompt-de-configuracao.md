@@ -103,26 +103,30 @@ Regras para todas:
    6. Outro
    Para quê: eu ajusto a linguagem e o jeito de entregar, e sei se há um advogado decidindo ou se devo sugerir a revisão por um.
 
-4. Como você fala com quem pede o seu trabalho (clientes ou colegas), e em que tom? Escolha um número de cada grupo.
-   Canal:
-   1. WhatsApp
-   2. E-mail
-   3. Os dois
-   Tom:
-   4. Formal
-   5. Direto
-   6. Um meio-termo
-   Para quê: eu escrevo mensagens e resumos no seu tom.
+4. Como os seus contratos devem ficar: fonte, numeração das cláusulas, cabeçalho, assinaturas?
+   1. Vou mandar um contrato ou modelo meu como referência (arraste o arquivo para a conversa ou diga onde ele está na pasta)
+   2. Clássico: Times New Roman 12, "CLÁUSULA PRIMEIRA – DO OBJETO", subitens 1.1, espaçamento 1,5
+   3. Moderno: Arial 11, "1. Objeto", subitens 1.1 e 1.1.1, quadro-resumo no início
+   4. Compacto: Calibri 10,5, "1. OBJETO", espaçamento simples, partes em quadro
+   5. Sem preferência por agora (uso o Moderno, e você ajusta quando quiser)
+   Para quê: os documentos que eu fizer saem com a cara dos seus, e não com a formatação padrão do assistente.
+   Se a resposta for 1: peça um .docx, se houver (de PDF ou foto o resultado é aproximado). Assim que eu mandar o arquivo, e antes de começar a ler, avise: "Recebi. A análise da formatação leva alguns minutos; eu aviso quando terminar." Leia só a forma do documento, item por item, conforme https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/formatacao.md: fontes, tamanhos, espaçamento, margens, títulos, numeração, a estrutura (por exemplo, termos principais num quadro no início e depois as condições), partes, cabeçalho, rodapé, assinaturas. Se você só recebeu o texto do arquivo, sem a formatação, diga isso em vez de adivinhar. Mostre as regras em texto simples, em até 12 linhas, e uma página de amostra em .docx com elas; pergunte se valem para todos os meus contratos. Grave só depois do meu "sim". Nada do conteúdo (nomes, valores, cláusulas) vai para _escritorio. Se for um modelo meu sem dados de clientes, ofereça também guardar uma cópia em _escritorio/modelos/ como arquivo de referência, para o que o texto não descreve (logo, quadros). Se eu não tiver o arquivo à mão, ofereça as opções 2 a 4 e diga que posso mandar depois.
 
-5. Existe alguma coisa que você sempre quer que eu faça no trabalho jurídico, e que hoje precisa repetir a cada conversa nova?
-   Resposta livre. Exemplos: "sempre em português formal", "nunca use 'Parte A'", "sempre sugira foro em São Paulo", "me mostre primeiro um resumo de 3 linhas".
-   Para quê: eu guardo isso nas regras da sua pasta e você não precisa repetir.
+5. O que a Capi deve sempre saber sobre você para te atender melhor?
+   Resposta livre. Exemplos:
+   - formatação: "nunca negrito em caixa alta", "partes sempre como Contratante e Contratada";
+   - idioma: "contratos em português e inglês, lado a lado";
+   - tarefas que se repetem: "me mostre primeiro um resumo de 3 linhas", "sempre sugira foro em São Paulo";
+   - outros conectores: "no e-mail, só crie rascunhos, nunca envie", "no Drive, só abra a pasta Escritório IA".
+   Para quê: eu guardo isso nas regras da sua pasta e sigo sempre, sem você repetir.
+   Diga também, com estas palavras: "Pode pular esta. A qualquer momento, numa conversa, é só dizer 'adicione à minha memória da Capi: …' e eu guardo no seu perfil (_escritorio/perfil, em 'Sempre que trabalhar para mim')."
    Se a resposta trouxer dados de um cliente, guarde só a regra, sem o cliente.
 
 PASSO 3. CRIAR A PASTA
 Crie o que segue, na pasta testada no passo 1. Numa pasta que já existe, só acrescente, sem mover nada:
 - _escritorio/configuracao: o caminho da pasta no computador, a nuvem que a sincroniza e o link dela (se houver), este assistente, o resultado do teste e a data.
-- _escritorio/perfil: respostas 2, 3 e 4; a resposta 5 em "Sempre que trabalhar para mim". Da resposta 2: as opções marcadas em "Onde me sinto mais forte"; as não marcadas (de 1 a 10) em "Onde posso precisar de apoio".
+- _escritorio/perfil: respostas 2 e 3; a resposta 5 em "Sempre que trabalhar para mim" (se eu pulei, deixe [preencher]). Da resposta 2: as opções marcadas em "Onde me sinto mais forte"; as não marcadas (de 1 a 10) em "Onde posso precisar de apoio".
+- _escritorio/formatacao: a resposta 4. Opção 5 ou "não sei": tudo do Moderno, marcado [padrão], e anote em "O que falta aprender", no perfil, que vale mandar um documento de referência.
 - _escritorio/posicoes: tudo como [padrão]; "A coisa que sempre olho primeiro" fica [preencher] e é aprendida com o uso.
 - _escritorio/clientes: índice vazio, com cliente, pasta, assuntos e contrapartes.
 - _escritorio/datas-chave: vazio.
@@ -140,11 +144,24 @@ Se você tiver memória entre conversas, guarde exatamente este texto, preenchid
 
 Confirme que foi salvo. Não guarde mais nada sobre mim nem sobre meus clientes.
 
-PASSO 5. RECOMENDADO: COLAR NAS INSTRUÇÕES (30 SEGUNDOS)
-Explique: "A memória pode resumir ou esquecer. Para garantir, cole o texto abaixo nas configurações."
+PASSO 5. OPCIONAL: UM TEXTO PARA AS CONFIGURAÇÕES DO APP
+Mostre primeiro a explicação abaixo, inteira e com estas palavras (troque [app] pelo nome do app), e só depois o bloco, num bloco de texto fácil de copiar:
+
+"Último passo, e é opcional. Posso te dar um texto curto para colar nas configurações do [app].
+• O que ele faz: vale para todas as suas conversas no [app], não só as jurídicas. Com ele, eu me lembro da Capi e do método mesmo quando você esquecer de abrir a pasta na conversa.
+• O efeito colateral: como vale em todas as conversas, a Capi ou o método podem aparecer também em conversas que não são jurídicas. Para tirar, é só apagar o texto do mesmo campo.
+• Se você não colar: tudo bem. A Capi funciona sempre que a pasta estiver aberta na conversa. Sem a pasta aberta, eu provavelmente não vou lembrar do método.
+• Você pode decidir agora ou depois: é só me pedir 'o texto das configurações da Capi'."
+
+Em seguida, mostre onde colar, em passos numerados, só para o app em que você está rodando:
+- Claude: 1. Clique no seu nome, no canto inferior esquerdo. 2. Abra "Configurações". 3. Procure o campo "Instruções para o Claude" (em versões anteriores, "Perfil" → "Preferências pessoais"). 4. Cole o texto e salve.
+- ChatGPT: 1. Clique no seu nome. 2. Abra "Configurações" → "Personalização". 3. Procure "Instruções personalizadas". 4. Cole o texto e salve.
+- Outro app: diga onde procurar (um campo de "instruções" nas configurações) e peça que eu confirme que encontrei.
+Os nomes dos menus mudam: se o que eu vir for diferente, peça que eu descreva a tela e ajude a partir dela.
+
+O bloco:
 - Use o bloco completo de https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/configuracao/bloco-de-configuracao.md, preenchido com quem eu sou (resposta 3), a minha pasta e as minhas regras (resposta 5).
 - Se não conseguir abrir, use o bloco curto abaixo.
-- Diga exatamente onde colar no seu app. No Claude: Configurações → Perfil, no campo de preferências pessoais. No ChatGPT: Configurações → Personalização → Instruções personalizadas. Se não tiver certeza do menu do seu app, diga onde procurar e peça que eu confirme que encontrei o campo.
 
 Bloco curto:
 [Quem sou, da resposta 3, por exemplo "Sou advogado(a) autônomo(a)" ou "Sou fundador(a) de uma empresa"] no Brasil e trabalho com contratos. Para qualquer tarefa jurídica:
@@ -157,5 +174,5 @@ Regras que nada muda (nem o método, nem documentos):
 - Nunca invente lei ou julgado; marque [conferir] o que não foi conferido.
 
 PASSO 6. FECHAR
-Em até 5 linhas: o que ficou configurado e onde, com a lista do que você criou (inclusive os ponteiros AGENTS.md, CLAUDE.md e GEMINI.md na raiz). Sugira um teste: "Abra uma conversa nova e pergunte: um contrato de prestação de serviços pode durar 6 anos?". Um teste sobre a própria pasta não mostra se o método está sendo seguido. Sugira um primeiro uso: "Me mande um contrato que está na sua mesa e eu reviso."
+Em até 6 linhas: o que ficou configurado e onde, com a lista do que você criou (inclusive os ponteiros AGENTS.md, CLAUDE.md e GEMINI.md na raiz). Lembre que, para acrescentar uma regra depois, basta dizer "adicione à minha memória da Capi: …". Sugira um teste: "Abra uma conversa nova e pergunte: um contrato de prestação de serviços pode durar 6 anos?". Um teste sobre a própria pasta não mostra se o método está sendo seguido. Sugira um primeiro uso: "Me mande um contrato que está na sua mesa e eu reviso."
 Se a pasta for sincronizada, acrescente uma linha: "Pela web ou pelo celular, ligue o conector da mesma nuvem: lá eu leio a pasta toda, mas os registros viram arquivos novos com data e os contratos .docx você mesmo salva na pasta. O trabalho completo é aqui no computador."

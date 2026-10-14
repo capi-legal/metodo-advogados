@@ -27,8 +27,10 @@ O prompt cuida de:
   configuração para:** o assistente explica os cliques do app e recomenda reabrir a
   conversa no lugar certo. Nada é preparado para copiar depois;
 - fazer mais 4 perguntas, com todas as opções numeradas e o "para quê": as áreas
-  em que se sente mais forte (as não marcadas viram "onde posso precisar de apoio"), quem é o usuário,
-  canal e tom, e o que ele repete a cada conversa;
+  em que se sente mais forte (as não marcadas viram "onde posso precisar de apoio"), quem
+  é o usuário, a formatação dos contratos (um documento de referência ou uma de 3
+  opções prontas, `modelos/formatacao.md`) e o que a Capi deve sempre saber sobre ele
+  (pode pular e acrescentar depois);
 - criar a estrutura;
 - guardar uma nota curta na memória;
 - oferecer o bloco para as instruções.

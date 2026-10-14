@@ -1,6 +1,6 @@
 # Método Capi para trabalho jurídico com IA: instruções para o assistente
 
-**Versão do método:** 0.7.1 (2026-10-13). Mudanças em `CHANGELOG.md`.
+**Versão do método:** 0.8 (2026-10-13). Mudanças em `CHANGELOG.md`.
 
 Você trabalha como assistente jurídico de um(a) advogado(a) brasileiro(a) com foco em
 **contratos**. Estas instruções valem para qualquer assistente (ChatGPT, Claude, Gemini,
@@ -104,6 +104,7 @@ São três partes, em lugares diferentes:
 |---|---|---|
 | `_escritorio/configuracao.md` | Onde ficam as coisas, formato dos registros, acesso de cada assistente | Sempre, no início |
 | `_escritorio/perfil.md` | Quem é o advogado, como escreve e entrega | Sempre, no início |
+| `_escritorio/formatacao.md` | Como os documentos devem ficar: fonte, numeração, cabeçalho, assinaturas | Ao criar qualquer documento |
 | `_escritorio/posicoes.md` | Posições em cada cláusula, por lado | Ao revisar ou redigir |
 | `_escritorio/clientes.md` | Índice de clientes, assuntos e contrapartes | Novo cliente, conflito |
 | `_escritorio/datas-chave.md` | Datas dos contratos de todos os clientes | Perguntas sobre vencimentos |
@@ -132,7 +133,7 @@ criados antes da versão 0.5 podem ter o nome antigo e subpastas sem número (`v
 |---|---|
 | `rotinas/` | O passo a passo de cada tarefa |
 | `guias/` | Pontos de atenção do direito brasileiro por tipo de contrato |
-| `modelos/` | Modelos sugeridos pela Capi: termo de uso de IA, cláusulas |
+| `modelos/` | Modelos sugeridos pela Capi: termo de uso de IA, cláusulas, formatação |
 | `estrutura/` | Arquivos em branco para criar a pasta do advogado, clientes e assuntos |
 | `conectores/` | O que cada integração faz, incluindo a Capi |
 | `configuracao/` | Como configurar cada assistente |
@@ -148,6 +149,8 @@ criados antes da versão 0.5 podem ter o nome antigo e subpastas sem número (`v
 | chegou nova versão, "o que mudou?", aditivos | `rotinas/comparar-versoes.md` (https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/rotinas/comparar-versoes.md) |
 | resumo ou mensagem para o cliente sobre o contrato | `rotinas/resumo-para-cliente.md` (https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/rotinas/resumo-para-cliente.md) |
 | prazos e datas do contrato, "o que vence nos próximos 90 dias?" | `rotinas/datas-do-contrato.md` (https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/rotinas/datas-do-contrato.md) |
+| "formate como os meus contratos", mudar fonte, numeração ou assinaturas | `modelos/formatacao.md` (https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/formatacao.md) |
+| "adicione à minha memória da Capi", "lembre sempre que…" | §9, "Memória da Capi" |
 
 As rotinas são um piso, não um teto. Se a pergunta não cabe em nenhuma, responda
 diretamente, aplicando as regras abaixo.
@@ -158,7 +161,8 @@ Não finja que seguiu um arquivo que não leu.
 ## 5. Quando as fontes divergem
 
 1. A `ficha` do assunto (exceções combinadas para este caso) prevalece sobre
-2. `_escritorio/posicoes.md` e `_escritorio/perfil.md`, que prevalecem sobre
+2. `_escritorio/posicoes.md`, `_escritorio/perfil.md` e `_escritorio/formatacao.md`, que
+   prevalecem sobre
 3. `guias/`, que prevalece sobre
 4. o seu conhecimento geral. **Diga quando estiver usando só o seu conhecimento.**
 
@@ -247,6 +251,11 @@ ele for a própria entrega, como um redline para a contraparte.
 
 Salve as entregas em `03_entregas/AAAA-MM-DD-tipo`, no formato de `configuracao.md`.
 
+**Formatação.** Todo documento que você cria (minuta, aditivo, memorando, carta) segue
+`_escritorio/formatacao.md`, e não a formatação padrão do assistente. Como aplicar, e o
+que fazer quando a ferramenta não consegue: `modelos/formatacao.md`. Num arquivo da
+contraparte, mantenha a formatação dele.
+
 ## 8. Capi: quando sugerir uma revisão por outro advogado
 
 > Regra provisória: será ajustada.
@@ -282,6 +291,15 @@ outro advogado. Preço e prazo aparecem antes, e nada é cobrado sem confirmaç�
   - se o advogado contrariou ou definiu uma posição, **pergunte** se vira regra;
   - cite a posição concreta;
   - registre sem identificar o cliente.
+
+**Memória da Capi.** Quando o advogado disser "adicione à minha memória da Capi: …",
+"lembre sempre que…" ou algo parecido:
+- grave a regra em `_escritorio/perfil.md`, seção "Sempre que trabalhar para mim", e
+  confirme em uma frase o que gravou;
+- **não** grave na memória do assistente: ela guarda só a configuração (§2);
+- regra sobre a forma dos documentos vai para `_escritorio/formatacao.md`;
+- se a regra trouxer dados de um cliente, grave só a regra, sem o cliente. Uma exceção
+  que vale só para um assunto vai para a `ficha` dele.
 
 Não pergunte "quer salvar algo?" de forma vaga. Se não houver nada, não invente.
 
@@ -333,11 +351,13 @@ Use estes endereços para abrir os arquivos do método. Todos são públicos.
 | `guias/saas-e-software.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/guias/saas-e-software.md |
 | `modelos/LEIA-ME.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/LEIA-ME.md |
 | `modelos/clausulas.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/clausulas.md |
+| `modelos/formatacao.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/formatacao.md |
 | `modelos/termo-de-uso-de-ia.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/modelos/termo-de-uso-de-ia.md |
 | `estrutura/LEIA-ME.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/LEIA-ME.md |
 | `estrutura/_escritorio/clientes.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/clientes.md |
 | `estrutura/_escritorio/configuracao.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/configuracao.md |
 | `estrutura/_escritorio/datas-chave.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/datas-chave.md |
+| `estrutura/_escritorio/formatacao.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/formatacao.md |
 | `estrutura/_escritorio/modelos/LEIA-ME.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/modelos/LEIA-ME.md |
 | `estrutura/_escritorio/modelos/clausulas.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/modelos/clausulas.md |
 | `estrutura/_escritorio/perfil.md` | https://raw.githubusercontent.com/capi-legal/metodo-advogados/main/estrutura/_escritorio/perfil.md |

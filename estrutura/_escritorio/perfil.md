@@ -43,7 +43,6 @@ Marcadores:
 
 ## Como escrevo e como entrego
 
-- **Tom:** [padrão: formal e direto, sem latim desnecessário]
 - **Revisões entregues como:** [padrão: memorando com tabela de pontos e sugestão de
   redação]. Alternativas: Word com comentários, marcações no próprio contrato.
 - **Formato de arquivo preferido:** [padrão: .docx para contratos, .md para notas
@@ -51,16 +50,20 @@ Marcadores:
 - **Com o cliente falo por:** [padrão: WhatsApp para recados curtos, e-mail para
   documentos]
 - **Particularidades de redação:** [preencher com o tempo, ex.: "uso 'Contratante' e
-  'Contratada', nunca 'Parte A'", "cláusulas numeradas 1.1, 1.2", "sem negrito em caixa
-  alta"]
+  'Contratada', nunca 'Parte A'", "evito latim"]
+- **Formatação dos documentos:** fonte, numeração, cabeçalho e assinaturas ficam em
+  `_escritorio/formatacao.md`.
 
 ## Sempre que trabalhar para mim
 
-O que eu repetia a cada conversa nova. O assistente segue estas regras em todo trabalho,
-sem eu precisar lembrar. Sem dados de clientes.
+O que a Capi deve sempre saber sobre mim. O assistente segue estas regras em todo
+trabalho, sem eu precisar lembrar. Sem dados de clientes.
 
-- [preencher, ex.: "sempre em português formal", "nunca use 'Parte A'", "me mostre
-  primeiro um resumo de 3 linhas"]
+Para acrescentar uma regra, diga numa conversa: "adicione à minha memória da Capi: …". O
+assistente grava aqui, e não na memória dele.
+
+- [preencher, ex.: "me mostre primeiro um resumo de 3 linhas", "contratos em português e
+  inglês, lado a lado", "no e-mail, só crie rascunhos, nunca envie"]
 
 ## Como trabalho
 
