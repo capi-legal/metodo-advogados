@@ -49,6 +49,7 @@ explicar tudo de novo a cada conversa e de subir os mesmos arquivos de novo.
 | "Novo cliente: …" / "Organize a pasta do cliente Y" | Pasta do cliente e do assunto, checagem de conflito, documentos de início |
 | "O que vence nos próximos 90 dias?" | Renovações, avisos e reajustes de todos os contratos |
 | "Triagem rápida deste NDA" | Verde, amarelo ou vermelho, conforme as suas posições |
+| "Salve isto como modelo" | Modelo sem nada do cliente: mostra o resultado e o que removeu, e só grava depois do seu "sim" |
 
 ## O que o assistente sempre respeita
 
@@ -70,6 +71,23 @@ o método.
   com treinamento desativado**.
 - A OAB orienta formalizar com o cliente o uso de IA (Recomendação CFOAB 001/2024). Há um
   modelo de termo em `modelos/termo-de-uso-de-ia.md`.
+
+## Seus modelos, sem expor clientes
+
+O contrato que você redigiu para um cliente pode virar modelo para os próximos. No fim da
+conversa, diga **"salve isto como modelo"**:
+
+1. o assistente combina com você para que tipo de documento e em que casos o modelo vale;
+2. tira nomes, documentos, valores, detalhes do negócio e os dados escondidos no arquivo
+   (autor, comentários, alterações controladas);
+3. mostra o modelo limpo e a lista do que saiu. Só grava depois do seu "sim".
+
+A partir daí, quando você pedir um documento daquele tipo, o assistente parte do seu
+modelo e **avisa qual usou**. Você reaproveita o próprio trabalho, e o cliente antigo não
+aparece no trabalho do novo.
+
+**O modelo fica só na sua pasta.** O método e o conector da Capi não têm acesso a ele.
+Como todo arquivo da pasta, ele é lido pelo assistente de IA que você usa (veja "Sigilo").
 
 ## Uma segunda opinião, quando precisar
 

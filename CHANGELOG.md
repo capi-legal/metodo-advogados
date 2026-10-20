@@ -3,6 +3,31 @@
 O assistente informa a versão em uso (topo do `AGENTS.md`). Mudanças que alteram o
 comportamento ficam registradas aqui, a mais recente primeiro.
 
+## 0.9 · 2026-10-20
+
+Modelos do próprio advogado, a partir do trabalho dele, sem expor o cliente de origem.
+
+- **"Salve isto como modelo."** Nova rotina `rotinas/salvar-modelo.md`. O assistente
+  combina o tipo de documento, o lado e quando usar (e não usar) o modelo; tira nomes,
+  documentos, valores, detalhes do negócio e os dados escondidos no arquivo (autor,
+  comentários, alterações controladas); pergunta o que fazer com as concessões daquela
+  negociação; e mostra o modelo limpo, como prévia na pasta do assunto, com o relatório do
+  que saiu. Só grava em `_escritorio/modelos/` depois do "sim". O relatório cita dados do
+  cliente e por isso fica só na conversa.
+- **Índice dos modelos.** Novo `_escritorio/modelos/indice.md`: arquivo, tipo, lado, quando
+  usar, quando não usar e origem anonimizada. Pastas já configuradas ganham o índice no
+  primeiro modelo salvo.
+- **Aviso de uso.** Ao redigir e nos documentos de início, o assistente procura no índice o
+  modelo do tipo e do lado e **sempre diz qual vai usar**, antes de redigir e na entrega
+  (`AGENTS.md` §7). Sem modelo para o tipo, ele oferece uma vez salvar a minuta aprovada
+  como modelo.
+- **Modelos nunca por cima.** Modelo atualizado é arquivo novo com a data; o índice diz qual
+  é o atual. Substitui a regra antiga de "salvar por cima se a versão antiga não importar".
+- **Campos dos modelos:** `[preencher: …]`, como nas minutas, no lugar de `[•]`.
+- **Sigilo:** os modelos ficam só na pasta do advogado; o conector da Capi não tem acesso
+  a ela (`conectores/capi.md`). O README apresenta o recurso, e o bloco de configuração
+  ganhou uma linha sobre modelos (cerca de 4.200 caracteres).
+
 ## 0.8 · 2026-10-13
 
 Ajustes do teste da configuração ao vivo (2026-10-13).

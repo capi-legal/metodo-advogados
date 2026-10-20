@@ -18,7 +18,7 @@ Dropbox. O nome é escolhido pelo advogado, por exemplo "Escritório IA".
     clientes          índice de clientes e contrapartes (checagem de conflito)
     datas-chave       datas dos contratos
     referencias       referências legais conferidas
-    modelos/          modelos e cláusulas do próprio advogado
+    modelos/          modelos e cláusulas do próprio advogado, com o índice de quando usar
   clientes/
     <cliente>/
       cliente         dados do cliente, quem assina, canal preferido

@@ -131,7 +131,7 @@ Crie o que segue, na pasta testada no passo 1. Numa pasta que já existe, só ac
 - _escritorio/clientes: índice vazio, com cliente, pasta, assuntos e contrapartes.
 - _escritorio/datas-chave: vazio.
 - _escritorio/referencias: vazio.
-- _escritorio/modelos/: com o LEIA-ME e o clausulas dos modelos.
+- _escritorio/modelos/: com o LEIA-ME, o clausulas e o indice dos modelos.
 - clientes/: vazia.
 - Os ponteiros AGENTS.md, CLAUDE.md e GEMINI.md na raiz.
 

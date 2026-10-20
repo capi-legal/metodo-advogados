@@ -45,7 +45,9 @@ O prompt cuida de:
    "dos seus modelos" ou "3 contratos assinados, lado contratada".
 3. **Não grave sem o advogado confirmar.** Com poucos documentos, marque
    `[poucos dados: N contratos]`.
-4. Ofereça copiar os modelos, sem dados de clientes, para `_escritorio/modelos/`.
+4. Ofereça copiar os modelos, sem dados de clientes, para `_escritorio/modelos/`,
+   seguindo `rotinas/salvar-modelo.md` (mostrar o modelo limpo e o que saiu antes de
+   gravar).
 
 **Ligar outro assistente à mesma pasta.** Não refaça as perguntas.
 1. Confira o modo da conversa, conecte e teste a pasta (passos 0 e 1 do prompt). Um
