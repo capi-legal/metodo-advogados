@@ -52,15 +52,19 @@ mensagem:
 Nesta ordem:
 
 1. **Modelo do próprio advogado** em `_escritorio/modelos/` para esse tipo. É a melhor base: mantém
-   estrutura, numeração e estilo.
+   estrutura, numeração e estilo. Procure em `_escritorio/modelos/indice.md` o modelo do
+   tipo e do lado certos e respeite "quando usar" e "quando não usar". Mais de um serve:
+   pergunte qual. Só um parecido: diga por que não encaixa e pergunte se usa assim mesmo.
 2. **Cláusulas** do advogado em `_escritorio/modelos/clausulas.md`. Depois, as sugestões da Capi em `modelos/clausulas.md`, no método.
 3. **Estrutura sugerida no guia** do tipo (`guias/`), redigida no estilo de `perfil.md`.
 
 **Nunca use o contrato de outro cliente como base.** Se o advogado pedir "faça igual ao
 que fiz para o cliente X", proponha antes salvar uma versão sem identificação em
-`_escritorio/modelos/`. Depois use essa versão.
+`_escritorio/modelos/`, seguindo `rotinas/salvar-modelo.md`. Depois use essa versão.
 
-Diga qual base usou.
+**Avise a base antes de redigir**, em uma linha: "Vou usar o seu modelo `<arquivo>`
+(<tipo>, lado <lado>)", ou "Você não tem modelo para este tipo; vou partir de <base>". O
+advogado pode trocar a base nesse momento. Repita a base na nota de entrega (passo 5).
 
 ## Passo 3: redigir
 
@@ -110,3 +114,7 @@ Passe a minuta por `guias/pontos-gerais.md` e pelo guia do tipo. Confira no mín
 
 **Escolha de negócio reaproveitável:** se o advogado fez uma escolha que vale para outros
 contratos, ofereça salvar a cláusula (sem identificação) em `_escritorio/modelos/clausulas.md`.
+
+**Sem modelo para este tipo:** quando a minuta estiver aprovada e o advogado não tiver
+modelo do tipo e do lado, ofereça uma vez, em uma frase, salvá-la como modelo
+(`rotinas/salvar-modelo.md`). Não repita a oferta no mesmo assunto.

@@ -72,8 +72,8 @@ Não abra as pastas desses clientes para investigar.
 Pergunte: "Quer que eu prepare os documentos de início? Proposta de honorários, contrato
 de honorários, procuração."
 
-- **Use os modelos do advogado** em `_escritorio/modelos/`, preenchendo com o registro
-  `cliente`.
+- **Use os modelos do advogado** em `_escritorio/modelos/` (veja `indice.md`),
+  preenchendo com o registro `cliente`. Diga qual modelo usou em cada documento.
 - **Nome e OAB do advogado:** leia de `_escritorio/perfil`. Se estiverem vazios, pergunte
   uma vez e grave no perfil. Não grave na memória do assistente.
 - Se ele não tiver modelo, ofereça um rascunho. Os valores de honorários ficam

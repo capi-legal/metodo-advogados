@@ -50,5 +50,9 @@ Só o necessário para a pergunta, e só depois que você vê e aprova a lista:
 - a ficha do assunto, sem dados de outros clientes;
 - a pergunta.
 
+O conector **não tem acesso à sua pasta**. Seus modelos (`_escritorio/modelos/`), posições
+e perfil ficam nela e não são enviados à Capi; só vai o que estiver na lista que você
+aprovar.
+
 O envio sai da sua pasta. Por isso, o sigilo do cliente e o seu termo de uso de IA (se
 houver) também valem aqui.

@@ -73,6 +73,8 @@ advogado pedir "formate como os meus contratos".
      com bordas e sombreados e assinaturas em tabela saem parecidos, não iguais. Se for um
      **modelo** do próprio advogado, sem dados de clientes, ofereça guardar uma cópia em
      `_escritorio/modelos/` e indicá-la como "arquivo de referência" em `formatacao.md`.
+     Se o arquivo tiver dados de cliente, a cópia passa antes por
+     `rotinas/salvar-modelo.md`.
      As regras em texto continuam valendo; o arquivo só completa o que elas não descrevem.
 2. **Sem documento à mão:** ofereça as 3 opções prontas abaixo. O advogado escolhe uma e
    pode ajustar qualquer item.
